@@ -1,0 +1,433 @@
+.refund-section,
+.faq-section {
+    padding: 50px 0px;
+}
+.faq-header h1 {
+    font-size: 32px;
+}
+.faq-content {
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    padding: 20px 30px;
+    text-align: Start;
+    border-radius: 5px;
+}
+.faq-content h4 {
+    font-size: 26px;
+    margin: 0;
+    padding: 15px 0px;
+    color: #006a9b;
+    text-transform: capitalize;
+}
+.faq-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #222222;
+}
+.faq-question-content {
+    margin-top: 20px;
+}
+.faq-content-header h1 {
+    color: #1a1a1a;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.faq-content-header h1 span {
+    font-size: 28px;
+    margin-right: 10px;
+}
+.faq-content-header h4,
+.faq-question-details h4 {
+    color: #404040;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.faq-question-details p {
+    font-size: 16px;
+    color: #484848;
+    margin-bottom: 10px;
+}
+.faq-question-details ul {
+    list-style: disc;
+}
+.faq-question-details ul li a {
+    color: #181818;
+    font-weight: 600;
+}
+.faq-question-details ul li a:hover {
+    color: #1a1a1a;
+}
+.faq-footer {
+    background-color: #1a1a1a;
+    border-radius: 5px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.faq-footer h1 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.faq-footer p {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.faq-footer p a {
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: underline;
+}
+.faq-footer p a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+/* Refund Policy Page CSS Start */
+.refund-policy-header h1 {
+    color: #1a1a1a;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.refund-details-item {
+    margin-top: 30px;
+}
+.refund-details-item h4 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #404040;
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 8px;
+}
+.refund-details-item p {
+    font-size: 16px;
+    color: #484848;
+    margin-bottom: 15px;
+}
+.refund-details-item p span {
+    color: #404040;
+    font-weight: 700;
+    font-size: 17px;
+}
+/* Refund Policy Page CSS End */
+/* Privacy Policy Page CSS Start */
+.privacy-list {
+    list-style: disc;
+}
+.privacy-list li {
+    font-size: 15px;
+}
+.privacy-sublist {
+    padding: 0;
+}
+.btn-learn-more {
+    background-color:#262626;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 16px;
+}
+.btn-learn-more:hover {
+    background-color: #000000;
+    color: #fff;
+}
+.privacy-moreinfo {
+    margin-top: 20px;
+}
+.privacy-contact {
+    padding-left: 20px;
+}
+.privacy-bottom-contact a {
+    color: #181818;
+    text-decoration: underline;
+}
+.privacy-bottom-contact a:hover {
+    color: #1a1a1a;
+}
+/* Privacy Policy Page CSS End */
+
+/* ------------- Responsive CSS ------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    /* Faq CSS Start */
+    .faq-header {
+        margin-bottom: 10px;
+    }
+    .faq-content-header h1 {
+        font-size: 22px;
+    }
+    .faq-content-header h1 span {
+        font-size: 26px;
+    }
+    .faq-content-header h4,
+    .faq-question-details h4 {
+        font-size: 18px;
+    }
+    .faq-question-details p {
+        font-size: 14px;
+    }
+    .faq-question-details ul li {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .faq-question-details ul li:last-child {
+        margin-bottom: 0px;
+    }
+    .faq-question-content {
+        margin-top: 10px;
+    }
+    .faq-footer h1 {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .faq-footer p {
+        font-size: 14px;
+    }
+    /* Faq CSS End */
+    /* Refund Policy CSS Start */
+    .refund-section,
+    .faq-section {
+        padding: 30px 0px;
+    }
+    .refund-policy-header h1 {
+        font-size: 26px;
+    }
+    .refund-details-item h4 {
+        font-size: 19px;
+    }
+    .refund-details-item p {
+        font-size: 14px;
+    }
+    .refund-details-item p span {
+        font-size: 15px;
+    }
+    .refund-details-item {
+        margin-top: 20px;
+    }
+    /* Refund Policy CSS End */
+    /* Privacy Policy CSS End */
+    .btn-learn-more {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+    /* Privacy Policy CSS End */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Faq CSS Start */
+    .faq-header {
+        margin-bottom: 10px;
+    }
+    .faq-content-header h1 {
+        font-size: 22px;
+    }
+    .faq-content-header h1 span {
+        font-size: 26px;
+    }
+    .faq-content-header h4,
+    .faq-question-details h4 {
+        font-size: 18px;
+    }
+    .faq-question-details p {
+        font-size: 14px;
+    }
+    .faq-question-details ul li {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .faq-question-details ul li:last-child {
+        margin-bottom: 0px;
+    }
+    .faq-question-content {
+        margin-top: 10px;
+    }
+    .faq-footer h1 {
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .faq-footer p {
+        font-size: 14px;
+    }
+    /* Faq CSS End */
+    /* Refund Policy CSS Start */
+    .refund-section,
+    .faq-section {
+        padding: 30px 0px;
+    }
+    .refund-policy-header h1 {
+        font-size: 26px;
+    }
+    .refund-details-item h4 {
+        font-size: 19px;
+    }
+    .refund-details-item p {
+        font-size: 14px;
+    }
+    .refund-details-item p span {
+        font-size: 15px;
+    }
+    .refund-details-item {
+        margin-top: 20px;
+    }
+    /* Refund Policy CSS End */
+    /* Privacy Policy CSS End */
+    .btn-learn-more {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+    /* Privacy Policy CSS End */
+}
+@media only screen and (min-width: 768px) {
+    /* Faq CSS Start */
+    .faq-header {
+        margin-bottom: 10px;
+    }
+    .faq-content-header h1 {
+        font-size: 24px;
+    }
+    .faq-content-header h1 span {
+        font-size: 28px;
+    }
+    .faq-content-header h4,
+    .faq-question-details h4 {
+        font-size: 20px;
+    }
+    .faq-question-details p {
+        font-size: 15px;
+    }
+    .faq-question-details ul li {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .faq-question-details ul li:last-child {
+        margin-bottom: 0px;
+    }
+    .faq-question-content {
+        margin-top: 10px;
+    }
+    .faq-footer h1 {
+        font-size: 22px;
+        margin-bottom: 7px;
+    }
+    .faq-footer p {
+        font-size: 15px;
+    }
+    /* Faq CSS End */
+    /* Refund Policy CSS Start */
+    .refund-section,
+    .faq-section {
+        padding: 40px 0px;
+    }
+    .refund-policy-header h1 {
+        font-size: 28px;
+    }
+    .refund-details-item h4 {
+        font-size: 19px;
+    }
+    .refund-details-item p {
+        font-size: 15px;
+    }
+    .refund-details-item p span {
+        font-size: 16px;
+    }
+    .refund-details-item {
+        margin-top: 30px;
+    }
+    /* Refund Policy CSS End */
+    /* Privacy Policy CSS End */
+    .btn-learn-more {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    /* Privacy Policy CSS End */
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Faq CSS Start */
+    .faq-header {
+        margin-bottom: 0px;
+    }
+    .faq-content-header h1 {
+        font-size: 26px;
+    }
+    .faq-content-header h1 span {
+        font-size: 28px;
+    }
+    .faq-content-header h4,
+    .faq-question-details h4 {
+        font-size: 20px;
+    }
+    .faq-question-details p {
+        font-size: 16px;
+    }
+    .faq-question-details ul li {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .faq-question-details ul li:last-child {
+        margin-bottom: 0px;
+    }
+    .faq-question-content {
+        margin-top: 20px;
+    }
+    .faq-footer h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .faq-footer p {
+        font-size: 16px;
+    }
+    /* Faq CSS End */
+    /* Refund Policy CSS Start */
+    .refund-section,
+    .faq-section {
+        padding: 50px 0px;
+    }
+    .refund-policy-header h1 {
+        font-size: 30px;
+    }
+    .refund-details-item h4 {
+        font-size: 20px;
+    }
+    .refund-details-item p {
+        font-size: 15px;
+    }
+    .refund-details-item p span {
+        font-size: 16px;
+    }
+    .refund-details-item {
+        margin-top: 30px;
+    }
+    /* Refund Policy CSS End */
+    /* Privacy Policy CSS End */
+    .btn-learn-more {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+    /* Privacy Policy CSS End */
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Refund Policy CSS Start */
+    .refund-policy-header h1 {
+        font-size: 32px;
+    }
+    .refund-details-item h4 {
+        font-size: 22px;
+    }
+    .refund-details-item p {
+        font-size: 16px;
+    }
+    .refund-details-item p span {
+        font-size: 17px;
+    }
+    /* Refund Policy CSS End */
+}

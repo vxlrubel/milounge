@@ -1,0 +1,799 @@
+.sareecat-hero-section {
+    background-color: #cb4575;
+    padding: 50px 0;
+}
+.banner-image {
+    text-align: center;
+}
+.banner-image img {
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+    height: auto;
+}
+.banner-title h1 {
+    text-align: start;
+    color: #fff;
+    margin: 0;
+    font-size: 35px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-family: elmessiriBold;
+}
+.banner-tagline h5 {
+    text-align: start;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.banner-btn {
+    text-align: center;
+    padding: 20px 0;
+}
+.consultation-btn {
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 50px;
+}
+.consultation-btn a {
+    color: #006a9b;
+}
+.consultation-btn a span {
+    font-size: 20px;
+}
+.consultation-btn:hover {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #006a9b;
+    border-radius: 50px;
+}
+.banner-details p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.banner-details p:nth-child(2) {
+    padding: 10px 0px;
+}
+/* Erectile Hero / Banner Section End */
+/* Medicine Gallery Section Start */
+.saree-gallery-section {
+    padding: 30px 0;
+}
+.card-heightcontrol {
+    display: block;
+    height: 240px;
+    overflow: hidden;
+}
+.cat-product-card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.cat-product-cardtitle a {
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #5d2471;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 25ch;
+    display: block;
+}
+.cat-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.cat-product-details {
+    width: 80%;
+}
+.cat-product-cardbody {
+    padding: 12px 10px;
+}
+.cat-product-price {
+    color: #5d2471;
+    font-size: 15px;
+    margin: 0;
+}
+.cat-product-price span {
+    color: #646464;
+}
+.cat-singleproduct-link {
+    background-color: #cb4575;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+.catproduct-iconbox-hold {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.catproduct-icon-box {
+    width: 23px;
+    height: 23px;
+    border-radius: 100%;
+    background-color: #fff;
+    display: block;
+    position: relative;
+}
+.catproduct-icon-box svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: #cb4575;
+}
+.medicine-gallery {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #b9b9b9;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+    margin: 10px 0px;
+    overflow: hidden;
+}
+.medicine-image {
+    text-align: center;
+    height: 300px;
+    overflow: hidden;
+}
+.medicine-image img {
+    width: 100%;
+    height: auto;
+}
+.medicine-name-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #006a9b;
+    border-top: 2px solid #fff;
+    padding: 10px 15px;
+}
+.medicine-name h6 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 275px;
+}
+.medicine-price {
+    text-align: center;
+    color: #fff;
+}
+.medicine-price p {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+.medicine-price span {
+    font-size: 22px;
+    font-weight: 700;
+}
+.medicine-details {
+    background-color: rgba(0, 106, 155, 0.1);
+    border-radius: 0px 0px 10px 10px;
+}
+.medicine-details p {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+/* Medicine Gallery Section End */
+/* Online Cosultation Section Start */
+.online-consultation-section {
+    padding: 30px 0;
+    background-image: url(../images/online-consultation-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: rgba(54, 100, 68, 0.2); */
+}
+.consultation-title-icon {
+    display: flex;
+    align-items: center;
+}
+.consultation-content h1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0;
+}
+.consultation-flag-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+}
+.consultation-flag-icon svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 22px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.consultaion-details p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.online-consultation-btn {
+    text-align: center;
+    padding: 30px 0;
+}
+.online-consult-btn {
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 24px;
+    border: 2px solid #fff;
+}
+.online-consult-btn:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 24px;
+}
+.online-consult-btn a {
+    color: #fff;
+    font-weight: 700;
+}
+.online-consult-btn a span {
+    font-size: 22px;
+}
+.consultaion-feature-list {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    color: #fff;
+}
+.feature-alignment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list-content img {
+    width: 40px;
+    height: auto;
+}
+.list-content p {
+    font-size: 14px;
+    margin: 0px;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.consultent-image {
+    text-align: center;
+}
+.consultent-image img {
+    width: 50%;
+}
+.consultent-details {
+    text-align: center;
+}
+.consultent-details h3 {
+    font-weight: 700;
+    margin-top: 5px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.consultent-details p {
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+/* Online Cosultation Section End */
+/* Erectile Dysfuction Details /Elaboration Section Start */
+.ed-main-content-section {
+    padding: 50px 0;
+}
+.ed-main-bg {
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+    border-radius: 10px;
+}
+.ed-content {
+    margin-top: 30px;
+}
+.elaboration {
+    margin-top: 0;
+}
+.ed-content h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.ed-content p {
+    font-size: 16px;
+}
+.causes ul {
+    list-style: disc;
+    list-style-position: inside;
+}
+/* Erectile Dysfuction Details /Elaboration Section End */
+.compare-treatments-section {
+    border: 1px solid #c7c7c7;
+    padding: 20px;
+    border-radius: 10px;
+}
+.compare-treatments-heading h4 {
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.compare-treatments-heading {
+    position: relative;
+}
+.compare-treatments-heading::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    background-color: #006a9b;
+    width: 245px;
+    height: 2px;
+}
+.line-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #c0c0c0;
+}
+.compare-treatments-table {
+    margin-top: 30px;
+}
+.ct-table thead tr th:nth-child(1) {
+    background-color: transparent;
+}
+.ct-table thead tr th {
+    background-color: #006a9b;
+    border: 1px solid #fff;
+}
+.ct-table thead tr th a {
+    color: #fff;
+}
+.ct-table thead tr th a h5 {
+    margin-bottom: 5px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.ct-table thead tr th a p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.prices-per-pill h4 {
+    font-size: 20px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.prices-per-pill P {
+    font-size: 16px;
+    color: #000;
+    font-style: italic;
+    margin: 0;
+}
+.medicine-rate {
+    font-size: 30px;
+    color: #555555;
+}
+.medicine-rate span {
+    font-size: 60px;
+}
+.tadalafil-img img {
+    margin: 20px auto;
+}
+.medicine-img:hover .medicine-rate {
+    color: #006a9b;
+}
+.table-row td {
+    font-size: 14px;
+    color: #555555;
+}
+.table-row td:nth-child(1) {
+    font-weight: 600;
+}
+.table-row td span {
+    font-size: 12px;
+}
+.ct-table tbody tr td:nth-child(1) {
+    min-width: 180px;
+    color: #000;
+}
+.row5 i {
+    color: #366444;
+}
+.prices-per-pill {
+    margin-top: 80%;
+}
+.ct-table tbody tr:nth-child(1) {
+    background-color: transparent;
+}
+/* Related- Article */
+.related-article-section {
+    padding-top: 50px;
+}
+.related-article-content {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(54, 100, 68, 0.2);
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.related-article-title h1 {
+    font-size: 35px;
+    color: #006a9b;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.article-content {
+    margin-right: 50px;
+}
+.article-title {
+    background-color: #006a9b;
+    padding: 12px;
+    border-radius: 10px;
+}
+.article-title h5 {
+    margin: 0;
+}
+.article-title h5 a {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+}
+.article-desc p {
+    font-size: 18px;
+    margin: 0;
+    padding: 15px 0;
+}
+.article-image img {
+    width: 100%;
+}
+.article-link p {
+    margin: 0;
+}
+.article-link p a {
+    color: #006a9b;
+    font-weight: 500;
+}
+.article-btn {
+    background-color: #006a9b;
+    border: 2px solid #006a9b;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 50px;
+    transition: 0.3s all ease-in-out;
+}
+.article-btn:hover {
+    background-color: #00496b;
+    border: 2px solid #00496b;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+
+/* @media only screen and (max-width: 575px) {} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .sareecat-hero-section {
+        background-color: #cb4575;
+        padding: 30px 0;
+    }
+    .banner-title {
+        margin-top: 20px;
+    }
+    .banner-image img {
+        width: 80%;
+        border-radius: 10px;
+    }
+    .banner-title h1 {
+        font-size: 26px;
+        padding: 5px 0;
+    }
+    .banner-tagline h5 {
+        font-size: 16px;
+    }
+    .cat-product-card {
+        margin-top: 20px;
+    }
+    .consultation-btn {
+        padding: 10px 35px;
+        font-size: 18px;
+    }
+    .banner-details p {
+        font-size: 16px;
+    }
+    .consultation-title-icon {
+        display: block;
+    }
+    .feature-alignment {
+        display: block;
+    }
+    .consultation-content h1 {
+        font-size: 26px;
+    }
+    .consultaion-details p {
+        font-size: 16px;
+    }
+    .list-content {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .consultent-image {
+        margin-top: 20px;
+    }
+    .ed-main-bg {
+        padding: 25px;
+    }
+    .medicine-name h6 {
+        font-size: 20px;
+        max-width: 280px;
+    }
+    .compare-treatments-heading h4 {
+        font-size: 22px;
+    }
+    .compare-treatments-heading::after {
+        width: 100%;
+    }
+    .compare-treatments-table {
+        overflow: scroll;
+    }
+    .medicine-rate {
+        font-size: 25px;
+    }
+    .medicine-rate span {
+        font-size: 60px;
+    }
+    .related-article-title h1 {
+        font-size: 26px;
+    }
+    .article-content {
+        margin-right: 0px;
+    }
+    .article-title h5 a {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .article-desc p {
+        font-size: 15px;
+    }
+    .article-link {
+        margin-bottom: 15px;
+    }
+    .article-btn {
+        font-size: 18px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .erectile-search {
+        margin: 10px 0;
+        justify-content: center;
+    }
+    .er-search-input {
+        padding: 5px 10px;
+        width: 70%;
+    }
+    .banner-image img {
+        width: 60%;
+        border-radius: 10px;
+    }
+    .banner-title h1 {
+        font-size: 30px;
+    }
+    .banner-tagline h5 {
+        font-size: 17px;
+    }
+    .cat-product-card {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 15px;
+    }
+    .consultation-btn {
+        padding: 10px 35px;
+        font-size: 22px;
+    }
+    .list-content p {
+        font-size: 12px;
+    }
+    .consultent-image {
+        margin-top: 20px;
+    }
+    .ed-main-bg {
+        padding: 40px;
+    }
+    .compare-treatments-table {
+        overflow: scroll;
+    }
+    .medicine-rate {
+        font-size: 25px;
+    }
+    .medicine-rate span {
+        font-size: 60px;
+    }
+    .medicine-name h6 {
+        font-size: 20px;
+        max-width: 280px;
+    }
+    .article-content {
+        margin-right: 0px;
+    }
+    .article-title h5 a {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .article-desc p {
+        font-size: 16px;
+    }
+    .article-link {
+        margin-bottom: 15px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner-image img {
+        width: 80%;
+    }
+    .logo-image {
+        text-align: center;
+    }
+    /* .breadcrumb-list ul li span {
+        padding: 0px 8px;
+    } */
+    .medicine-name h6 {
+        font-size: 22px;
+    }
+    .medicine-price p {
+        margin-right: 8px;
+    }
+    .consultation-title-icon {
+        display: block;
+    }
+    .consultation-content h1 {
+        font-size: 26px;
+    }
+    .consultaion-details p {
+        font-size: 17px;
+    }
+    .compare-treatments-table {
+        overflow: scroll;
+    }
+    .medicine-rate {
+        font-size: 28px;
+    }
+    .medicine-rate span {
+        font-size: 60px;
+    }
+    .medicine-name h6 {
+        font-size: 20px;
+        max-width: 170px;
+    }
+    .article-title h5 a {
+        font-size: 18px;
+    }
+    .article-desc p {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+    .article-link {
+        margin-bottom: 0px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo-image {
+        text-align: start;
+    }
+    .header-link ul li a {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .banner-image img {
+        width: 80%;
+    }
+    .consultation-title-icon {
+        display: flex;
+        align-items: center;
+    }
+    .compare-treatments-table {
+        overflow: hidden;
+    }
+    .medicine-rate {
+        font-size: 30px;
+    }
+    .medicine-rate span {
+        font-size: 60px;
+    }
+    .medicine-name h6 {
+        font-size: 22px;
+        max-width: 230px;
+    }
+    .article-content {
+        margin-right: 30px;
+    }
+    .article-desc p {
+        font-size: 16px;
+        padding: 5px 0;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .banner-title h1 {
+        font-size: 35px;
+    }
+    .banner-tagline h5 {
+        font-size: 20px;
+    }
+    .consultation-btn {
+        padding: 10px 50px;
+        font-size: 24px;
+    }
+    .medicine-name h6 {
+        font-size: 22px;
+        max-width: 280px;
+    }
+    .consultation-content h1 {
+        font-size: 30px;
+    }
+    .consultaion-details p {
+        font-size: 20px;
+    }
+    .ed-main-bg {
+        padding: 50px;
+    }
+    .article-content {
+        margin-right: 50px;
+    }
+    .article-title h5 a {
+        font-size: 22px;
+    }
+    .article-desc p {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .medicine-name h6 {
+        font-size: 22px;
+        max-width: 330px;
+    }
+}

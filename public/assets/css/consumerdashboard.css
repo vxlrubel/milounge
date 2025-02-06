@@ -1,0 +1,1051 @@
+/* Dashboard CSS Start */
+.consumerdashboard-linkbg {
+    background-color: #212121;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100%;
+    border-radius: 5px;
+}
+.dashboardlink {
+    /* border-bottom: 1px solid #a7a7a7; */
+    padding: 4px 20px;
+}
+.dashboardlink-hold {
+    padding-top: 10px;
+}
+.dashboardlink a {
+    color: #fff;
+    display: block;
+    background-color: transparent;
+    padding: 8px 20px;
+    font-size: 15px;
+}
+.dashboardlink-active a {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.dashboardlink a span svg {
+    margin-right: 7px;
+}
+.dashboardlink:last-child {
+    border-bottom: none;
+}
+.profile-image-hold {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.profile-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+.profile-image img {
+    width: 100%;
+}
+.profile-contentdetails {
+    margin-left: 10px;
+}
+.profile-contentdetails h1 {
+    font-size: 20px;
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+/* Dashboard CSS End */
+/* Account Details CSS start */
+.details-formcontent {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.details-formcontent2 {
+    margin-top: 20px;
+}
+.profile-title {
+    background-color: #ff9900;
+    padding: 12px 20px;
+    border-radius: 5px 5px 0px 0px;
+}
+.profile-title h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 0;
+}
+.profile-title h1 span svg {
+    margin-right: 5px;
+}
+.profile-form {
+    padding: 20px 10px;
+}
+.acde-formlabel {
+    margin-bottom: 5px;
+    color: #181818;
+}
+.row-alignment {
+    padding: 5px 0;
+}
+.profile-dateofbirth-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.accountdetails-genderselect:focus {
+    border: 1px solid #ff9900;
+    outline: 0;
+    box-shadow: none;
+}
+.profiledate {
+    width: 80px;
+}
+.accountdetails-monthselect:focus {
+    border: 1px solid #006a9b;
+    outline: 0;
+    box-shadow: none;
+}
+.profileyear {
+    width: 120px;
+}
+.ac-btn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 8px 20px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+.account-details-button {
+    text-align: end;
+    margin-top: 10px;
+}
+.ac-btn:hover {
+    background-color: #cf7d02;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+.ad-divider {
+    border: 1px solid #ebebeb;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.ad-selectOption:focus {
+    border: 1px solid #ff9900;
+    outline: 0;
+    box-shadow: none;
+}
+.deliveryaddress-showtable {
+    border: 1px solid #dbdbdb;
+    border-top: 4px solid #ff9900;
+    border-radius: 5px;
+}
+.ad-table {
+    margin: 0;
+    vertical-align: middle;
+}
+.ad-table thead {
+    color: #181818;
+    text-transform: uppercase;
+}
+.ad-table thead tr {
+    border: transparent;
+}
+.ad-table tbody tr {
+    border: 3px solid #fff;
+    background-color: rgba(255, 153, 0, 0.2);
+}
+.ad-table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 1);
+}
+.ad-table tbody tr td p {
+    margin: 0;
+}
+.largetable-actionoption {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.largetable-actionbutton {
+    width: 35px;
+    height: 35px;
+    background-color: #ff9900;
+    position: relative;
+    border-radius: 5px;
+}
+.largetable-actionbutton:hover {
+    background-color: #cf7d02;
+    position: relative;
+}
+.largetable-actionbutton svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    color: #fff;
+}
+.mobile-actionbutton {
+    color: #ff9900;
+    font-size: 15px;
+}
+/* Account Details CSS End */
+/* My Orders CSS Start */
+.consumerorderdetails-content {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.profile-myordertitle {
+    background-color: #ff9900;
+    border-radius: 5px 5px 0px 0px;
+}
+.profile-myordertitle h1 {
+    color: #fff;
+}
+.order-searchbydate-content {
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    margin: 0px 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.consumer-ordertable {
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+.ordershow-table {
+    background-color: rgba(255, 153, 0, 0.5);
+    color: #181818;
+    border-radius: 5px;
+}
+.consumer-ordertable thead tr th {
+    font-weight: 600;
+}
+.consumer-ordertable tbody td {
+    font-size: 15px;
+}
+.consumer-ordertable tbody tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 1);
+}
+.consumer-ordertable tbody tr:nth-child(even) {
+    background-color: rgba(255, 153, 0, 0.2);
+}
+.consumer-ordertable .orderdetailsbtn span svg {
+    font-size: 16px;
+    margin-right: 3px;
+}
+.orderlist-searchbydate {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0;
+}
+.searchdate-field {
+    display: flex;
+    align-items: start;
+    width: 40%;
+}
+.searchdate-formfield {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #ff9900;
+}
+.searchdate-formfield:focus {
+    border: 0;
+    border-bottom: 2px solid #cf7d02;
+}
+.searchdate-field2 {
+    margin-left: 20px;
+}
+.searchdate-field label {
+    margin-right: 10px;
+    color: #181818;
+}
+.datebysearchbtn {
+    margin-left: 10px;
+    background-color: #ff9900;
+    color: #fff;
+    padding: 6px 16px;
+}
+.datebysearchbtn:hover {
+    background-color: #cf7d02;
+    color: #fff;
+}
+.orderdetailsbtn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+.orderdetailsbtn:hover {
+    background-color: #cf7d02;
+    color: #fff;
+}
+.table-orderid {
+    color: #181818;
+    font-weight: 800;
+}
+/* My Order Mobile View Design Start */
+.mobilesearchdate-content {
+    background-color: #fff;
+    padding: 12px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+.mobileodl {
+    border: 1px solid #c5c5c5;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-top: 4px solid #ff9900;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mo-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 6px 15px;
+}
+.mobileorder-date {
+    width: 85%;
+}
+.mobileorder-date h5 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #181818;
+    font-weight: 600;
+}
+.mobileorder-date h6 {
+    margin: 0;
+    font-size: 14px;
+    color: #181818;
+    font-weight: 600;
+}
+.mobileorder-date h6 span {
+    font-size: 13px;
+    color: #606060;
+}
+.mobileodl-details-button {
+    width: 15%;
+}
+.mobileodl-details-button a {
+    display: block;
+    background: #ff9900;
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    margin-left: auto;
+}
+.mobileodl-details-button a svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+.searchdatefrom {
+    display: block;
+}
+.mobiledatesearch-from label,
+.mobiledatesearch-to label {
+    font-size: 15px;
+    color: #181818;
+    font-weight: 600;
+}
+.mobiledatesearch-forminput {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #ff9900;
+}
+.mobiledatesearch-forminput::placeholder {
+    font-size: 13px;
+    color: #888888;
+}
+.mobiledatesearch-forminput:focus {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #cf7d02;
+}
+.mobiledatesearch-to,
+.mobiledatesearch-button {
+    margin-top: 8px;
+}
+.mobiledatesearch-button {
+    text-align: center;
+}
+.mobiledatebysearchbtn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 5px 10px;
+}
+.consumerorder-header {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+.consumerorder-header h4 {
+    margin: 0;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.consumerorder-header h4 span {
+    margin-right: 5px;
+}
+.mobileorder-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: start;
+    padding: 8px 12px;
+}
+.mobileorder-status {
+    text-align: start;
+}
+.leftstright-line {
+    height: 45px;
+    width: 3px;
+    background-color: #ff9900;
+}
+.mobileorder-status p {
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.mobileorder-no-type {
+    width: 45%;
+}
+.mo-no-type-lable {
+    color: #606060;
+}
+.mobileorder-no-type p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #181818;
+    font-weight: 600;
+}
+.mobileorder-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #181818;
+}
+.mobileorder-price span {
+    font-size: 14px;
+    font-weight: 500;
+}
+.mobileorder-no-type p:last-child {
+    margin-bottom: 0;
+}
+.mobileorder-no-type span {
+    font-size: 13px;
+    margin-right: 5px;
+}
+/* My Order Mobile View Design End */
+
+/* My Orders CSS End */
+/* Security CSS Start */
+.accountsecurity-content {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 500px;
+    border-radius: 5px;
+}
+.password-edit-button {
+    text-align: end;
+}
+.password-title label {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.password-title p {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.pass-editbtn {
+    background-color: #ff9900;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 18px;
+    transition: 0.3s all ease-in-out;
+}
+.pass-editbtn:hover {
+    background-color: #cf7d02;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+.securityupdate-form {
+    display: none;
+    margin-top: 10px;
+}
+.securityupdate-form-open {
+    display: block;
+}
+.pass-update-button {
+    text-align: end;
+}
+.account-disable-content {
+    margin-top: 20px;
+}
+.disable-title p {
+    color: #868686;
+    font-size: 14px;
+    font-style: italic;
+}
+.disable-title label {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+}
+.acc-disablebtn {
+    background-color: #cf3737;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 18px;
+}
+.acc-disablebtn:hover {
+    background-color: #ad4040;
+    color: #fff;
+}
+.consumeraccount-securitycontent {
+    padding: 15px 30px;
+}
+.csform-inputfield {
+    border: 1px solid #bdbdbd;
+}
+.csform-inputfield:focus {
+    border: 1px solid #390b49;
+}
+/* Security CSS End */
+/* Account Profile Image Change */
+.profileimage-content {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.3s all ease-in-out;
+}
+.profileimage-changebtn {
+    padding: 0;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+}
+.profileimage-changebtn:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.profile-image:hover .profileimage-content {
+    visibility: visible;
+    height: 30px;
+    transition: 0.3s all ease-in-out;
+}
+.profileimage-popuptitle {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.current-profileimage img {
+    width: 100%;
+}
+.upload-profileimage {
+    margin-top: 20px;
+}
+/* Account Profile Image Change */
+
+/* Delivery Address For Mobile Device Start */
+.deliveryaddress-mobiledevice {
+    padding: 0px 12px;
+}
+.da-mobile-content {
+    border: 1px solid #cfcfcf;
+    border-top: 4px solid #ff9900;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 12px;
+}
+.da-mobile-content:first-child {
+    margin-top: 0;
+}
+.da-mobile-content h6 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #181818;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.da-mobile-content h6 span {
+    margin-right: 5px;
+}
+.da-mobile-content p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #4b4b4b;
+    margin: 0;
+}
+/* Delivery Address For Mobile Device End */
+
+/* Order Detail Modal Design Start */
+.modalorder-date-status {
+    display: flex;
+    align-items: start;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.modalorder-date,
+.modalorder-status {
+    width: 30%;
+    border-left: 3px solid #ff9900;
+    padding-left: 10px;
+}
+.modalorder-date h5,
+.modalorder-status h5 {
+    font-size: 16px;
+    color: #ff9900;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+    font-weight: 700;
+}
+.modalorder-date p,
+.modalorder-status p {
+    color: #181818;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+.modalordered-detailstable {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+.modalordered-detailstable thead {
+    background-color: #ff9900;
+    color: #fff;
+}
+.modalordered-detailstable thead tr th {
+    font-weight: 500;
+}
+.modalordered-detailstable tbody tr td strong {
+    color: #181818;
+}
+.modalorder-tablelist {
+    padding: 0;
+    margin: 0;
+}
+.ordertable-price {
+    font-size: 16px;
+}
+.modalorder-subtotalbg {
+    color: #181818;
+    background-color: rgba(255, 153, 0, 0.2);
+}
+.modalorder-subtotalbg:nth-child(even) {
+    color: #181818;
+    background-color: rgba(245, 245, 245, 1);
+}
+.mo-upload-invoice-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modalorderdetails-button {
+    padding: 10px 16px;
+    transition: 0.3s all ease-in-out;
+    background-color: #ff9900;
+}
+.modalorderdetails-button2 {
+    padding: 10px 16px;
+    background-color: #414141;
+    transition: 0.3s all ease-in-out;
+}
+.modalorderdetails-button:hover {
+    color: #fff;
+    background-color: #cf7d02;
+    padding: 10px 16px;
+    transition: 0.3s all ease-in-out;
+}
+.modalorderdetails-button2:hover {
+    color: #fff;
+    background-color: #181818;
+    padding: 10px 16px;
+    transition: 0.3s all ease-in-out;
+}
+.modalorderdetailsbtn {
+    color: #fff;
+}
+.modalorderdetailsbtn svg {
+    margin-right: 5px;
+}
+/* Order Detail Modal Design End */
+/* Fuel card page CSS Start */
+.fuelcard-history-icon {
+    width: 35px;
+    height: 35px;
+    background-color: #ff9900;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+.fuelcard-history-icon:hover {
+    background-color: #cf7d02;
+}
+.fuelcard-history-icon img {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fuelcard-title {
+    font-size: 24px;
+}
+.fuelcard-title span {
+    text-transform: capitalize;
+}
+.fuelcard-table thead tr {
+    background-color: #ff9900;
+    color: #fff;
+}
+.fuelcard-table tbody tr {
+    border: none;
+    border-top: 3px solid #fff;
+    background-color: rgba(255, 153, 0, 0.2);
+}
+.fuelcard-table tbody tr td {
+    border: none;
+}
+.fuelcard-btn {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+.fuelcard-btn:hover {
+    background-color: #cf7d02;
+    color: #fff;
+}
+.fuelcard-btn.show {
+    background-color: #cf7d02;
+    color: #fff;
+}
+.fuelcard-btn::after {
+    display: none;
+}
+.fuel-dropdown-menu {
+    background-color: #181818;
+}
+.fueldropdown-item {
+    color: #fff;
+}
+.fueldropdown-item:hover {
+    background-color: #ff9900;
+    color: #fff;
+}
+/* Fuel card page CSS End */
+.ad-details .shipping-item .checkout-forminput::placeholder {
+    font-size: 15px;
+}
+/* Responsive Media Query */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .profileimage-content {
+        visibility: visible;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 30px;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition: 0.3s all ease-in-out;
+    }
+    .details-formcontent {
+        margin-top: 20px;
+    }
+    .profile-form {
+        padding: 15px 15px;
+    }
+    .profile-title h1 {
+        font-size: 17px;
+    }
+    .accountdetails-colalignment {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .ad-ordershow-table {
+        overflow: scroll;
+    }
+    .table-largedevice {
+        display: none;
+    }
+    .ac-btn {
+        padding: 7px 16px;
+    }
+    .checkout-formlabel {
+        font-size: 15px;
+    }
+    .large-device {
+        display: none;
+    }
+    .myorder-large-device {
+        display: none;
+    }
+    /* Security Page CSS Start */
+    .accountsecurity-content {
+        margin-top: 20px;
+        min-height: auto;
+    }
+    /* Security Page CSS End */
+    .modalorder-date-status {
+        display: block;
+    }
+    .modalorder-date,
+    .modalorder-status {
+        width: 100%;
+    }
+    .modalorder-status {
+        margin-top: 10px;
+    }
+    .modalordered-detailstable tbody tr td strong {
+        color: #181818;
+        font-size: 13px;
+    }
+    .modalorder-tablelist {
+        font-size: 13px;
+    }
+    .modalorderdetails-button {
+        padding: 8px 14px;
+    }
+    .modalorderdetails-button2 {
+        padding: 8px 14px;
+    }
+    .profileimage-popuptitle {
+        font-size: 18px;
+    }
+    .ordertable-price {
+        font-size: 15px;
+    }
+    .fuelcard-history-icon {
+        margin: 0;
+        margin-left: auto;
+    }
+    .fuelcard-title {
+        font-size: 18px;
+    }
+    .fuelcard-table thead tr th {
+        font-size: 14px;
+    }
+    .fuelcard-table tbody tr td {
+        font-size: 14px;
+    }
+    .acc-disablebtn {
+        padding: 6px 12px;
+    }
+    .modalorder-subtotalbg {
+        font-size: 15px;
+    }
+    .modalordered-detailstable thead tr th {
+        font-size: 15px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .details-formcontent {
+        margin-top: 20px;
+    }
+    .profile-form {
+        padding: 15px 15px;
+    }
+    .profile-title h1 {
+        font-size: 17px;
+    }
+    .accountdetails-colalignment {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .deliveryaddress-mobiledevice {
+        display: none;
+    }
+    .table-largedevice {
+        display: revert;
+    }
+    .deliveryaddress-tablecontent {
+        padding: 0px 15px;
+    }
+    .checkout-formlabel {
+        font-size: 15px;
+    }
+    .large-device {
+        display: none;
+    }
+    .myorder-large-device {
+        display: none;
+    }
+    /* Mobile View Design My Order Page Start */
+    .mo-content {
+        padding: 8px 20px;
+        padding-top: 10px;
+    }
+    .mobileorder-details {
+        padding: 8px 20px;
+    }
+    .mobileorder-date h5 {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .mobileorder-date h6 {
+        font-size: 14px;
+    }
+    .mobileorder-date h6 span {
+        font-size: 14px;
+    }
+    .mobileorder-no-type p {
+        font-size: 15px;
+    }
+    .mobileorder-no-type span {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .mobileorder-price {
+        font-size: 16px;
+        font-weight: 600;
+        color: #390b49;
+    }
+    .mobileodl-details-button a {
+        width: 35px;
+        height: 35px;
+    }
+    .mobileodl-details-button a svg {
+        font-size: 15px;
+    }
+    .leftstright-line {
+        height: 50px;
+    }
+    .mobiledatesearch-to,
+    .mobiledatesearch-button {
+        margin-left: 12px;
+    }
+    /* Mobile View Design My Order Page End */
+
+    /* Security Page CSS Start */
+    .accountsecurity-content {
+        margin-top: 20px;
+        min-height: auto;
+    }
+    /* Security Page CSS End */
+    .fuelcard-history-icon {
+        margin: auto;
+    }
+    .modalorder-subtotalbg {
+        font-size: 15px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .profile-contentdetails h1 {
+        font-size: 17px;
+    }
+    .profile-image {
+        width: 60px;
+        height: 60px;
+    }
+    .dashboardlink {
+        padding: 4px 12px;
+    }
+    .details-formcontent {
+        margin-top: 0px;
+    }
+    .details-formcontent2 {
+        margin-top: 20px;
+    }
+    .profile-title h1 {
+        font-size: 17px;
+    }
+    .profile-form {
+        padding: 15px 0px;
+    }
+    .deliveryaddress-tablecontent {
+        padding: 0px 0px;
+    }
+    .ac-btn {
+        padding: 7px 20px;
+    }
+    .large-device {
+        display: none;
+    }
+    .myorder-large-device {
+        display: none;
+    }
+    /* Mobile View Design My Order Page Start  */
+    .consumerorder-header {
+        margin-top: 0px;
+    }
+    /* Mobile View Design My Order Page End  */
+
+    /* Security Page CSS Start */
+    .accountsecurity-content {
+        margin-top: 0px;
+        min-height: 500px;
+    }
+    /* Security Page CSS End */
+    .modalorder-subtotalbg {
+        font-size: 16px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .large-device {
+        display: revert;
+    }
+    .myorder-large-device {
+        display: revert;
+    }
+    .myorder-mobile-device {
+        display: none;
+    }
+    .mobile-device {
+        display: none;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .profile-contentdetails h1 {
+        font-size: 17px;
+    }
+    .profile-image {
+        width: 65px;
+        height: 65px;
+    }
+    .profile-title h1 {
+        font-size: 18px;
+    }
+    .ac-btn {
+        padding: 8px 20px;
+    }
+}

@@ -1,0 +1,516 @@
+/* @media only screen and (max-width: 575px) {} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 350px) {
+    .content-box {
+        padding: 20px 15px;
+    }
+    .shopping-secure-section {
+        text-align: center;
+    }
+    .shopping-secure-item {
+        margin: 10px 0;
+    }
+    .secure-item {
+        display: inline-block;
+        text-align: center;
+    }
+    .shopping-secure-item a:hover {
+        background-color: transparent;
+    }
+    .consultaion-progress-line {
+        width: 35px;
+        left: 72%;
+    }
+    .cart-progress-line {
+        width: 24px;
+        left: 95%;
+    }
+    .delivery-progress-line {
+        width: 37px;
+        left: 79%;
+    }
+    .checkout-step-title h5 {
+        font-size: 16px;
+    }
+    .medical-assessment-title h1 {
+        font-size: 26px;
+    }
+    .medical-assessment-title h2 {
+        font-size: 16px;
+    }
+    .assessment-button {
+        float: none;
+    }
+    .assessment-title h1 {
+        font-size: 18px;
+    }
+    .content-block {
+        padding: 8px 8px;
+    }
+    .assessment-content p {
+        font-size: 14px;
+    }
+    .radio-btn-set tbody tr td {
+        padding: 0;
+    }
+    .radio-btn-set tbody tr td label {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .btn-complete {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .quick-questionnaire {
+        text-align: center;
+    }
+    .questionnaire-content h6 {
+        margin-top: 10px;
+    }
+    .superintendent-pharmacist {
+        text-align: center;
+    }
+    .superintendent-pharmacist-content h6 {
+        margin-top: 10px;
+    }
+    .confidential-secure ul li {
+        padding: 10px 15px;
+    }
+    .lowest-price-content p {
+        padding: 0px 10px;
+    }
+}
+@media only screen and (min-width: 350px) {
+    .shopping-secure-section {
+        text-align: center;
+    }
+    .shopping-secure-item {
+        margin: 10px 0;
+    }
+    .secure-item {
+        display: inline-block;
+        text-align: center;
+    }
+    .shopping-secure-item a:hover {
+        background-color: transparent;
+    }
+    .consultaion-progress-line {
+        width: 55px;
+        left: 70%;
+    }
+    .cart-progress-line {
+        width: 42px;
+        left: 95%;
+    }
+    .delivery-progress-line {
+        width: 55px;
+        left: 79%;
+    }
+    .checkout-step-title h5 {
+        font-size: 16px;
+    }
+    .medical-assessment-title h1 {
+        font-size: 26px;
+    }
+    .medical-assessment-title h2 {
+        font-size: 16px;
+    }
+    .assessment-button {
+        float: none;
+    }
+    .assessment-title h1 {
+        font-size: 18px;
+    }
+    .content-block {
+        padding: 8px 8px;
+    }
+    .assessment-content p {
+        font-size: 14px;
+    }
+    .radio-btn-set tbody tr td {
+        padding: 0;
+    }
+    .radio-btn-set tbody tr td label {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .btn-complete {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .quick-questionnaire {
+        text-align: center;
+    }
+    .questionnaire-content h6 {
+        margin-top: 10px;
+    }
+    .superintendent-pharmacist {
+        text-align: center;
+    }
+    .superintendent-pharmacist-content h6 {
+        margin-top: 10px;
+    }
+}
+@media only screen and (min-width: 425px) {
+    .consultaion-progress-line {
+        width: 75px;
+        left: 70%;
+    }
+    .cart-progress-line {
+        width: 59px;
+        left: 95%;
+    }
+    .delivery-progress-line {
+        width: 72px;
+        left: 79%;
+    }
+}
+
+@media only screen and (min-width: 575px) {
+    .shopping-secure-section {
+        text-align: center;
+    }
+    .shopping-secure-item {
+        margin: 10px 0;
+    }
+    .secure-item {
+        display: inline-block;
+        text-align: center;
+    }
+    .shopping-secure-item a:hover {
+        background-color: transparent;
+    }
+    .consultaion-progress-line {
+        width: 110px;
+        left: 70%;
+    }
+    .cart-progress-line {
+        width: 80px;
+        left: 95%;
+    }
+    .delivery-progress-line {
+        width: 90px;
+        left: 79%;
+    }
+    .checkout-step-title h5 {
+        font-size: 16px;
+    }
+    .medical-assessment-title h1 {
+        font-size: 26px;
+    }
+    .medical-assessment-title h2 {
+        font-size: 16px;
+    }
+    .assessment-button {
+        float: none;
+    }
+    .assessment-title h1 {
+        font-size: 18px;
+    }
+    .content-block {
+        padding: 8px 8px;
+    }
+    .assessment-content p {
+        font-size: 14px;
+    }
+    .radio-btn-set tbody tr td {
+        padding: 0;
+    }
+    .radio-btn-set tbody tr td label {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .btn-complete {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .quick-questionnaire {
+        text-align: center;
+    }
+    .questionnaire-content h6 {
+        margin-top: 10px;
+    }
+    .superintendent-pharmacist {
+        text-align: center;
+    }
+    .superintendent-pharmacist-content h6 {
+        margin-top: 10px;
+    }
+}
+/* @media only screen and (max-width: 600px) {
+  .shopping-secure-section {
+    text-align: center;
+  }
+  .shopping-secure-item {
+    margin: 10px 0;
+  }
+  .secure-item {
+    display: inline-block;
+    text-align: center;
+  }
+  .shopping-secure-item a:hover {
+    background-color: transparent;
+  }
+  .consultaion-progress-line {
+    width: 112px;
+    left: 70%;
+  }
+  .cart-progress-line {
+    width: 100px;
+    left: 95%;
+  }
+  .delivery-progress-line {
+    width: 113px;
+    left: 79%;
+  }
+  .checkout-step-title h5 {
+    font-size: 16px;
+  }
+  .medical-assessment-title h1 {
+    font-size: 26px;
+  }
+  .medical-assessment-title h2 {
+    font-size: 16px;
+  }
+  .assessment-button {
+    float: none;
+  }
+  .assessment-title h1 {
+    font-size: 18px;
+  }
+  .content-block {
+    padding: 8px 8px;
+  }
+  .assessment-content p {
+    font-size: 16px;
+  }
+  .radio-btn-set tbody tr td {
+    padding: 0;
+  }
+  .radio-btn-set tbody tr td label {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .btn-complete {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .quick-questionnaire {
+    text-align: center;
+  }
+  .questionnaire-content h6 {
+    margin-top: 10px;
+  }
+  .superintendent-pharmacist {
+    text-align: center;
+  }
+  .superintendent-pharmacist-content h6 {
+    margin-top: 10px;
+  }
+} */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .shopping-secure-section {
+        text-align: center;
+    }
+    .shopping-secure-item {
+        margin: 10px 0;
+    }
+    .secure-item {
+        display: inline-block;
+        text-align: center;
+    }
+    .shopping-secure-item a:hover {
+        background-color: transparent;
+    }
+    .consultaion-progress-line {
+        width: 110px;
+    }
+    .cart-progress-line {
+        width: 94px;
+    }
+    .delivery-progress-line {
+        width: 110px;
+    }
+    .medical-assessment-title h1 {
+        font-size: 26px;
+    }
+    .medical-assessment-title h2 {
+        font-size: 16px;
+    }
+    .assessment-button {
+        float: none;
+    }
+    .content-block {
+        padding: 8px 8px;
+    }
+    .assessment-content p {
+        font-size: 16px;
+    }
+    .radio-btn-set tbody tr td {
+        padding: 0;
+    }
+    .radio-btn-set tbody tr td label {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .btn-complete {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .quick-questionnaire {
+        text-align: center;
+    }
+    .questionnaire-content h6 {
+        margin-top: 10px;
+    }
+    .superintendent-pharmacist {
+        text-align: center;
+    }
+    .superintendent-pharmacist-content h6 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .consultaion-progress-line {
+        width: 90px;
+    }
+    .cart-progress-line {
+        width: 78px;
+    }
+    .delivery-progress-line {
+        width: 90px;
+    }
+    .medical-assessment-title h1 {
+        font-size: 30px;
+    }
+    .medical-assessment-title h2 {
+        font-size: 18px;
+    }
+    .questionnaire-icon {
+        text-align: end;
+    }
+    .questionnaire-content {
+        text-align: start;
+    }
+    .questionnaire-content h6 {
+        margin-top: 0px;
+        font-size: 18px;
+    }
+    .superintendent-pharmacist {
+        text-align: start;
+    }
+    .superintendent-pharmacist-content h6 {
+        margin-top: 0px;
+        font-size: 24px;
+    }
+    .superintendent-pharmacist-content p {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    .pharmacist-details h5 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .lowest-price-content img {
+        width: 45%;
+    }
+    .regulated-content img {
+        width: 12%;
+    }
+    .register-icon img {
+        width: 20%;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .shopping-secure-item {
+        text-align: Start;
+    }
+    .secure-item {
+        display: block;
+        text-align: end;
+    }
+    .shopping-secure-item a:hover {
+        background-color: rgb(48, 78, 57);
+        transition: 0.3s all ease-in-out;
+    }
+    .table {
+        margin-bottom: 0;
+    }
+    .quick-questionnaire {
+        text-align: start;
+    }
+    .questionnaire-content h6 {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .superintendent-pharmacist-content h6 {
+        margin-top: 0px;
+        font-size: 16px;
+    }
+    .superintendent-pharmacist-content p {
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .pharmacist-details h5 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .confidential-secure-content h4 {
+        font-size: 20px;
+    }
+    .confidential-secure ul li {
+        padding: 10px 18px;
+    }
+    .ms-need-help i {
+        font-size: 30px;
+    }
+    .ms-need-help h4 {
+        font-size: 22px;
+    }
+    .regulated-content img {
+        width: 25%;
+    }
+    .regulated-content h4 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .register-icon img {
+        width: 40%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .consultaion-progress-line {
+        width: 120px;
+    }
+    .cart-progress-line {
+        width: 108px;
+    }
+    .delivery-progress-line {
+        width: 120px;
+    }
+    .lowest-price-content img {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .consultaion-progress-line {
+        width: 150px;
+    }
+    .cart-progress-line {
+        width: 134px;
+    }
+    .delivery-progress-line {
+        width: 150px;
+    }
+}

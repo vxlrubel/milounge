@@ -1,0 +1,257 @@
+.register-section {
+    padding: 50px 0;
+}
+.register-form {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.register-form-header {
+    background-color: #ff9900;
+    padding: 12px 0;
+}
+.register-form-header h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #fff;
+}
+.register-form-content {
+    padding: 25px;
+}
+.registerpage-form-content {
+    padding-bottom: 0;
+}
+.name-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name-field input:nth-child(1) {
+    margin-right: 15px;
+}
+.dateofbirth-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dateofbirth-field select {
+    margin: 0 10px;
+}
+.registerpage-password {
+    position: relative;
+}
+.eye-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0px 10px;
+    border-left: 1px solid #c9c9c9;
+    cursor: pointer;
+}
+.eye-btn:hover {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    padding: 0px 10px;
+    border-left: 1px solid #c9c9c9;
+}
+.eye-btn i {
+    cursor: pointer;
+}
+.registerpage-select-item {
+    color: #505050;
+}
+.terms-conditions label {
+    color: #6b6b6b;
+}
+.terms-conditions p {
+    font-size: 12px;
+    color: #000;
+}
+.terms-conditions a {
+    color: #505050;
+    text-decoration: underline;
+}
+.terms-conditions a:hover {
+    color: #181818;
+}
+.register-form-content .form-control {
+    border: 1px solid #c5c5c5;
+}
+.register-form-content .form-control:focus {
+    border: 1px solid #ff9900;
+}
+.register-form-check-input {
+    border: 1px solid #a0a0a0;
+}
+.register-form-check-input:focus {
+    border: 1px solid #ff9900;
+    box-shadow: none;
+}
+.register-form-check-input:checked {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+.register-button {
+    text-align: end;
+    margin-top: 15px;
+}
+.btn-register {
+    padding: 8px 25px;
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+.btn-register:hover {
+    background-color: #cf7d02;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+.login-link {
+    padding-top: 15px;
+    text-align: center;
+}
+.login-link p {
+    margin: 0;
+    font-size: 18px;
+}
+.login-link p a {
+    color: #181818;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.login-link p a:hover {
+    color: #ff9900;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.register-form-left-bg {
+    background-color: #ff9900;
+    padding-right: 0px;
+    position: relative;
+    text-align: center;
+}
+.register-form-left {
+    padding: 30px 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+.register-form-lefttitle h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+.register-form-left-image {
+    margin-top: 5px;
+}
+.register-form-left-image img {
+    width: 70%;
+}
+.register-form-right {
+    padding: 30px 20px;
+}
+.register-form-righttitle h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff9900;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 600px) {
+    .register-section {
+        padding: 30px 0;
+    }
+    /* .register-form {
+        padding: 25px 15px;
+    } */
+    .register-form h1 {
+        text-align: center;
+        font-size: 22px;
+    }
+    .btn-register {
+        padding: 8px 12px;
+    }
+    .register-form-content {
+        padding: 15px;
+    }
+    .registerpage-form-content {
+        padding: 15px 0px;
+    }
+    .register-form-left-bg {
+        display: none;
+    }
+    .terms-conditions label {
+        font-size: 14px;
+    }
+    .login-link p {
+        font-size: 15px;
+    }
+    .register-button {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .register-form h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .registerpage-form-content {
+        padding: 15px 0px;
+    }
+    .registerpage-rating-image img {
+        width: 50%;
+    }
+    .registerpage-client-comment p {
+        margin-bottom: 20px;
+    }
+    .register-form-left-bg {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .registerpage-rating-image img {
+        width: 70%;
+    }
+    .register-form {
+        margin-top: 20px;
+    }
+    .register-form-left-bg {
+        display: none;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .register-form h1 {
+        text-align: center;
+        font-size: 24px;
+    }
+    .register-form-lefttitle h1 {
+        text-align: center;
+    }
+    .register-form {
+        margin-top: 0px;
+    }
+    .register-form-left-bg {
+        display: revert;
+    }
+    .btn-register {
+        padding: 8px 18px;
+    }
+    .registerpage-form-content {
+        padding-bottom: 0;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .btn-register {
+        padding: 8px 25px;
+    }
+}

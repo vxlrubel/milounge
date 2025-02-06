@@ -1,0 +1,73 @@
+.mi-hero-area{
+    --animatio_time: 0.3s;
+    --padding-block:70px;
+    --font-size: 3rem;
+    background: url('../mi-img/hero-bg.jpg');
+}
+
+.mi-hero-overlay{
+    padding-block: var(--padding-block);
+    backdrop-filter: blur(3px);
+    height: calc(100dvh - calc(71px + 52px));
+    background: linear-gradient(transparent, hsla(0, 0%, 0%, 0.5));
+}
+.hero-text{
+    margin-inline: auto;
+    font-size: var(--font-size);
+    line-height: calc(var(--font-size) + .5rem);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@media(width >= 768px){
+    .mi-hero-area{
+        --padding-block:150px;
+        --font-size: 5rem;
+    }
+}
+
+[class*="mi-anim-"]{
+    opacity: 0;
+    transform: translateY(20px);
+}
+.mi-anim-1{
+    text-transform: uppercase;
+    line-height: var(--font-size);
+    font-size: var(--font-size);
+    animation: fadeinup var(--animatio_time) forwards;
+}
+.mi-anim-2{
+    text-transform: uppercase;
+    line-height: var(--font-size);
+    font-size: var(--font-size);
+    color: var(--bs-info);
+    animation: fadeinup var(--animatio_time) forwards calc(var(--animatio_time) * 1);
+}
+.mi-anim-3{
+    animation: fadeinup var(--animatio_time) forwards calc(var(--animatio_time) * 2);
+}
+.mi-anim-4{
+    animation: fadeinup var(--animatio_time) forwards calc(var(--animatio_time) * 3);
+}
+.mi-anim-5{
+    animation: fadeinup var(--animatio_time) forwards calc(var(--animatio_time) * 4);
+}
+@keyframes fadeinup{
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+.iframe-map{
+    min-height: 300px;
+    width: 100%;
+}
+@media(width >=768px){
+    .iframe-map{
+        height: 100%;
+    }
+}

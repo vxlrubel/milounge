@@ -1,0 +1,246 @@
+.payment-section {
+    padding: 40px 0;
+    padding-top: 0px;
+}
+.payment-all-content {
+    padding: 30px 0px;
+    border-radius: 5px;
+}
+.payment-content {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.payment-amount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    background-color: #fff;
+    border-bottom: 2px solid #ff9900;
+    border-radius: 5px 5px 0px 0px;
+}
+.payment-amount h3 {
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+}
+.payment-amount p {
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    padding: 5px 14px;
+    border-radius: 5px;
+}
+.payment-card-details {
+    padding: 12px 20px;
+}
+.cardholder-name,
+.cardholder-number,
+.cardholder-address {
+    margin-bottom: 5px;
+}
+.cardholder-name label,
+.cardholder-number label,
+.cardholder-address label,
+.cardholder-postcode label {
+    color: #333333;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.payment-client-name,
+.payment-client-cardnumber,
+.payment-client-address,
+.payment-client-postcode {
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+}
+.number-validity {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #c5c5c5;
+}
+.number-validity input[type="text"] {
+    flex: 0 33.33%;
+    border: none;
+}
+
+.card-validity-content {
+    padding: 10px 0;
+}
+.card-inputfield {
+    border: none;
+}
+.payment-button {
+    text-align: center;
+    margin-top: 20px;
+}
+.payment-btn {
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+.payment-btn:hover {
+    background-color: #cf7d02;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 25px;
+}
+.cardnumber-input {
+    display: flex;
+    align-items: center;
+}
+.card-image {
+    width: 50px;
+    margin-right: 10px;
+}
+.number-input {
+    width: 100%;
+}
+.card-image img {
+    width: 100%;
+}
+.payment-cardimage {
+    padding-bottom: 20px;
+}
+.payment-cardimage img {
+    width: 40%;
+}
+.orderitemsummary-imagedetails {
+    border-top: 4px solid #5d2471;
+}
+.checkoutorder-summary {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ordersummary-headtitle {
+    background-color: #cb4575;
+    border-radius: 5px 5px 0px 0px;
+}
+.ordersummary-headtitle h6 {
+    color: #fff;
+    text-transform: capitalize;
+    margin: 0;
+}
+.ordersummary-headtitle div a {
+    color: #fff;
+    background-color: #5d2471;
+}
+.ordersummary-headtitle div a:hover {
+    color: #fff;
+    background-color: #a12a55;
+}
+.chkoutordersummary-content {
+    border-bottom: 1px solid #cb4575;
+}
+.ordersummary-title h6 {
+    color: #cb4575;
+}
+.ordersummary-price p {
+    color: #cb4575;
+}
+.ordersummary-total h6 {
+    color: #fff;
+}
+.ordersummary-totalprice p {
+    color: #fff;
+}
+
+/* Responsive Media Query */
+@media only screen and (max-width: 600px) {
+    .payment-all-content {
+        padding: 20px 10px;
+        padding-top: 0px;
+    }
+    .payment-card-details {
+        padding: 12px 15px;
+    }
+    .payment-amount {
+        padding: 10px 15px;
+    }
+    .payment-amount h3 {
+        font-size: 16px;
+    }
+    .payment-amount p {
+        font-size: 16px;
+        padding: 4px 10px;
+    }
+    .cardholder-name label,
+    .cardholder-number label,
+    .cardholder-address label,
+    .cardholder-postcode label {
+        font-size: 15px;
+    }
+    .payment-btn {
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+    .payment-btn:hover {
+        font-size: 16px;
+        padding: 6px 20px;
+    }
+    .payment-cardimage img {
+        width: 50%;
+    }
+
+    .payment-image {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .payment-all-content {
+        padding: 20px 20px;
+        padding-top: 0px;
+    }
+    .payment-amount h3 {
+        font-size: 18px;
+    }
+    .payment-amount p {
+        font-size: 17px;
+        padding: 5px 12px;
+    }
+    .cardholder-name label,
+    .cardholder-number label,
+    .cardholder-address label,
+    .cardholder-postcode label {
+        font-size: 16px;
+    }
+    .payment-btn {
+        font-size: 17px;
+        padding: 7px 22px;
+    }
+    .payment-btn:hover {
+        font-size: 17px;
+        padding: 7px 22px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .payment-amount h3 {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .payment-btn {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 25px;
+    }
+    .payment-btn:hover {
+        font-size: 18px;
+        font-weight: 600;
+        padding: 8px 25px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,364 @@
+.shopping-secure-section {
+    background-color: #006a9b;
+    padding: 12px 0;
+}
+.shopping-secure-item a {
+    color: #fff;
+    font-size: 18px;
+    padding: 13px;
+    margin: 0;
+    transition: 0.3s all ease-in-out;
+}
+.shopping-secure-item a span {
+    margin-right: 3px;
+}
+.shopping-secure-item a:hover {
+    background-color: rgb(5, 76, 109);
+    transition: 0.3s all ease-in-out;
+}
+.secure-item {
+    text-align: end;
+}
+.checkout-progress {
+    padding: 50px 0;
+}
+.checkout-progressbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle-stroke {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid #006a9b;
+    margin: 0 auto;
+    position: relative;
+}
+.circle-solid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #006a9b;
+}
+.circle-solid-active {
+    width: 25px;
+}
+.consultaion,
+.cart,
+.delivery {
+    position: relative;
+}
+.consultaion-progress-line {
+    width: 118px;
+    border: 1px dashed #006a9b;
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    transform: translateY(-70%);
+}
+.cart-progress-line {
+    width: 102px;
+    border: 1px dashed #006a9b;
+    position: absolute;
+    top: 30%;
+    left: 95%;
+    transform: translateY(-70%);
+}
+.delivery-progress-line {
+    width: 120px;
+    border: 1px dashed #006a9b;
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translateY(-70%);
+}
+.checkout-step-title h5 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* Medical Assessment Section Start */
+.medical-assessment-section {
+    padding-bottom: 50px;
+}
+.content-box {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.assessment-content-block {
+    border: 1px solid #b8b8b8;
+}
+.medical-assessment-title h1 {
+    font-size: 30px;
+    color: #006a9b;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.medical-assessment-title h2 {
+    font-size: 18px;
+    line-height: 1.4;
+}
+.assessment-login-link p {
+    font-size: 16px;
+}
+.assessment-login-btn {
+    color: #fff;
+    background-color: #006a9b;
+}
+.assessment-login-btn span {
+    font-size: 16px;
+    margin-right: 3px;
+}
+.assessment-login-btn:hover {
+    color: #fff;
+    background-color: #003b57;
+}
+/* Assessment About */
+.assessment-title {
+    background-color: #99b1bd;
+    padding: 10px;
+}
+.assessment-title h1 {
+    font-size: 22px;
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+.content-block {
+    padding: 15px 30px;
+}
+.assessment-content {
+    padding: 15px 0;
+}
+.assessment-content p {
+    color: #000;
+    margin: 0;
+    font-size: 16px;
+}
+.assessment-button {
+    float: right;
+}
+.radio-btn-set input {
+    visibility: hidden;
+}
+.assesment-label {
+    border: 1px solid #999999;
+    padding: 7px 12px;
+    cursor: pointer;
+}
+.label1 {
+    border-radius: 5px 0px 0px 5px;
+}
+.label2 {
+    border-radius: 0px 5px 5px 0px;
+    border-left: none;
+}
+.radio-custombtn:checked ~ label {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    background-color: #004768;
+    color: #fff;
+}
+.assessment-content ul {
+    list-style: disc;
+    list-style-position: inside;
+    margin-left: 20px;
+}
+.assessment-content ul li {
+    color: #5c5c5c;
+    font-size: 14px;
+}
+.btn-complete {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #006a9b;
+    border: 2px solid #006a9b;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    transition: 0.3s all ease-in-out;
+}
+.btn-complete:hover {
+    background-color: #003b57;
+    border: 2px solid #003b57;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+/* Medical Assessment Section End */
+/* Quick Questionnaire */
+.quick-questionnaire {
+    background-color: #006a9b;
+    color: #fff;
+    padding: 15px 25px;
+}
+.questionnaire-icon svg {
+    font-size: 50px;
+}
+.questionnaire-content h6 {
+    margin: 0;
+}
+.superintendent-pharmacist-image img {
+    width: 100%;
+}
+.superintendent-pharmacist-content h6 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+.superintendent-pharmacist-content p {
+    margin: 0;
+    font-size: 14px;
+}
+.superintendent-pharmacist {
+    margin-top: 30px;
+    padding: 15px 12px;
+    border: 1px solid #cccccc;
+}
+.pharmacist-details h5 {
+    color: #006a9b;
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 0;
+}
+.pharmacist-details h6 {
+    color: #006a9b;
+    margin: 0;
+    padding: 0;
+}
+.confidential-secure-content {
+    text-align: center;
+    color: #006a9b;
+}
+.confidential-secure-content i {
+    font-size: 30px;
+}
+.confidential-secure {
+    margin-top: 30px;
+    padding: 20px 12px;
+    border: 1px solid #cccccc;
+}
+.confidential-secure ul li {
+    padding: 10px 25px;
+}
+.confidential-secure ul li span i {
+    font-size: 20px;
+}
+.lowest-price-content {
+    margin-top: 30px;
+    padding: 20px 12px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.lowest-price-content img {
+    width: 80%;
+}
+.lowest-price-content p {
+    font-size: 14px;
+    padding: 0px 20px;
+    color: #000;
+    margin-top: 10px;
+}
+.ms-need-help {
+    margin-top: 30px;
+    padding: 20px 12px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.ms-need-help i {
+    font-size: 40px;
+    color: #366444;
+}
+.ms-need-help h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #006a9b;
+}
+.ms-need-help p {
+    font-size: 16px;
+    color: #000;
+}
+.ms-need-help h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #006a9b;
+}
+.regulated-content {
+    margin-top: 30px;
+    padding: 20px 12px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.regulated-content h4 {
+    color: #006a9b;
+    font-size: 24px;
+    font-weight: 700;
+}
+.regulated-content p {
+    color: #000;
+    font-size: 16px;
+}
+.regulated-content img {
+    width: 20%;
+}
+.register-icon img {
+    width: 40%;
+}
+#status1,
+#status2,
+#status3,
+#status4,
+#status5,
+#status6,
+#status7,
+#status8,
+#status9,
+#status10,
+#status11,
+#status12,
+#status13,
+#status14 {
+    display: none;
+}
+.assessment-status {
+    display: none;
+}
+.assessment-status p span i {
+    margin-right: 2px;
+}
+.about1 {
+    background-color: rgba(241, 50, 50, 0.2);
+    padding: 5px 10px;
+}
+.about1 p {
+    font-size: 14px;
+    margin: 0;
+    color: red;
+}
+.about2 {
+    background-color: rgba(35, 240, 35, 0.2);
+    padding: 5px 10px;
+}
+.about2 p {
+    font-size: 14px;
+    margin: 0;
+    color: green;
+}
+.about3 {
+    background-color: rgba(192, 152, 83, 0.2);
+    padding: 5px 10px;
+}
+.about3 p {
+    font-size: 14px;
+    margin: 0;
+    color: #9e7b3e;
+}

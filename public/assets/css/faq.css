@@ -1,0 +1,206 @@
+.faq-section,
+.breadcrumb-section {
+    background-color: #f7f7f7;
+}
+.faq-all-content {
+    padding: 20px 0px;
+}
+.faq-content {
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    padding: 20px 30px;
+    text-align: Start;
+    border-radius: 5px;
+}
+.faq-content h4 {
+    font-size: 26px;
+    margin: 0;
+    padding: 15px 0px;
+    color: #006a9b;
+    text-transform: capitalize;
+}
+.faq-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #222222;
+}
+.faq-question-content {
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.faq-header {
+    margin-bottom: 30px;
+}
+.faq-header h1 {
+    color: #006a9b;
+    font-size: 26px;
+    font-weight: 700;
+}
+.faq-ques-item {
+    border: none;
+}
+.faq-btn {
+    padding: 15px 0;
+    border-radius: 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 0px;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    text-align: start;
+    color: #006a9b;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    padding-right: 15px;
+}
+.faq-btn:hover {
+    padding: 15px 0;
+    border-radius: 0;
+    border-top: 1px solid #c4c4c4;
+    border-bottom: 0px;
+    border-left: 0;
+    border-right: 0;
+    padding-right: 15px;
+}
+.faq-btn:not(.collapsed) {
+    background-color: #fff;
+}
+.faq-btn:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.faq-collapse-content {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.faq-collapse-content p {
+    margin: 0;
+    font-size: 18px;
+    color: #5c5c5c;
+}
+.faq-collapse-content p a {
+    font-size: 18px;
+    color: #006a9b;
+    font-weight: 600;
+}
+.faqs {
+    --bs-accordion-active-color: #003b57;
+}
+.faq-footer {
+    margin-bottom: 10px;
+}
+.faq-footer h1 {
+    color: #006a9b;
+    font-size: 26px;
+    font-weight: 700;
+}
+.faq-footer p {
+    font-size: 15px;
+    color: #5c5c5c;
+    font-weight: 600;
+}
+.faq-footer p a {
+    font-size: 15px;
+    color: #006a9b;
+    font-weight: 600;
+}
+/* ------------- FAQ Responsive CSS ------------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .faq-left-item {
+        padding: 0;
+    }
+    .faq-content h4 {
+        font-size: 22px;
+    }
+    .faq-btn {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .faq-btn:hover {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .faq-header h1 {
+        font-size: 22px;
+    }
+    .faq-footer h1 {
+        font-size: 22px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .faq-content h4 {
+        font-size: 22px;
+    }
+    .faq-btn {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .faq-btn:hover {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .faq-header h1 {
+        font-size: 22px;
+    }
+    .faq-footer h1 {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .faq-content h4 {
+        font-size: 24px;
+    }
+    .faq-btn {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    .faq-btn:hover {
+        font-size: 16px;
+        padding-right: 0px;
+    }
+    .faq-header h1 {
+        font-size: 24px;
+    }
+    .faq-footer h1 {
+        font-size: 24px;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .faq-content h4 {
+        font-size: 26px;
+    }
+    .faq-btn {
+        font-size: 18px;
+        padding-right: 0px;
+    }
+    .faq-btn:hover {
+        font-size: 18px;
+        padding-right: 0px;
+    }
+    .faq-header h1 {
+        font-size: 26px;
+    }
+    .faq-footer h1 {
+        font-size: 26px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,514 @@
+@media only screen and (max-width: 575px) {
+    /* Team Help Section Start */
+    .header-navbar-button,
+    .header-large {
+        display: none;
+    }
+    .qualified-team {
+        height: auto;
+    }
+    .qualified-alignment {
+        position: relative;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        transform: translateY(0%);
+    }
+    .team-image img {
+        width: 30%;
+    }
+    .gallery .image {
+        margin-top: 10px;
+    }
+    .gallery .image span {
+        border-radius: 10px 10px 0px 0px;
+    }
+    .footer-link-title h1 {
+        font-size: 20px;
+    }
+    .footer-link ul li a {
+        font-size: 13px;
+    }
+    .footer-link ul li p {
+        font-size: 13px;
+    }
+    .footer-large{
+        display: none;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-navbar-button,
+    .header-large {
+        display: none;
+    }
+    .top-header {
+        text-align: center;
+    }
+    .header-link ul {
+        justify-content: center;
+        margin: 0;
+    }
+    .header-link ul li a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        border: 2px solid #fff;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    .search-input {
+        width: 100%;
+    }
+    .filtarable-galary-title h1 {
+        font-size: 30px;
+    }
+    .filtarable-galary-paragraph p {
+        font-size: 16px;
+    }
+    /* Filtarable Gallery */
+    .filtarable-galary-title h1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .filtarable-galary-paragraph p {
+        font-size: 16px;
+    }
+    .filtarable-section {
+        padding: 50px 0;
+    }
+    .wrapper {
+        margin: 30px auto;
+    }
+    .wrapper nav .items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav .items span {
+        margin: 5px;
+    }
+
+    .gallery .image {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    .wrapper nav {
+        padding-top: 0px;
+    }
+    .team-title h1,
+    .need-help h1 {
+        font-size: 24px;
+    }
+    .need-help {
+        margin-top: 20px;
+    }
+    .help-chat {
+        margin: 10px 0;
+    }
+    /* Team Help Section End*/
+    /* Client Review Section Start*/
+    .client-review-title h1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .rating-image img {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .fill {
+        padding: 0px 40px;
+    }
+    /* Client Review Section End*/
+    /* In press Section Start */
+    .press-section-title h1 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .press-logo {
+        margin-top: 30px;
+    }
+    .press-logo img {
+        width: 30%;
+    }
+    /* In press Section End */
+    /* Newsletter Section Start */
+    .newsletter-field {
+        margin-top: 20px;
+    }
+    /* Newsletter Section End */
+    /* Footer Section Start */
+    .footer-item {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .footer-link-title h1 {
+        font-size: 20px;
+    }
+    .footer-link ul li a {
+        font-size: 13px;
+    }
+    .footer-link ul li p {
+        font-size: 13px;
+    }
+    .payment-option {
+        display: block;
+    }
+    .payment-with {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .payment-method-logo img {
+        width: 45px;
+    }
+    /* Footer Section End */
+
+    /* Breadcrumb CSS Start */
+    .breadcrumb-list ul li {
+        margin-right: 5px;
+        font-size: 14px;
+    }
+    .breadcrumb-list ul li span {
+        padding: 0px 2px;
+    }
+    /* Breadcrumb CSS End */
+    .footer-large{
+        display: none;
+    }
+    .payment-method-mobilelogo img {
+        width: 47px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header-navbar-button,
+    .header-large {
+        display: none;
+    }
+    .top-header {
+        text-align: center;
+    }
+    .header-link ul {
+        justify-content: center;
+        margin: 0;
+    }
+    .header-link ul li a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .navbar-toggler {
+        background-color: #fff;
+        border: 2px solid #fff;
+    }
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+    /* Filtarable Gallery */
+    .filtarable-galary-title h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .filtarable-galary-paragraph p {
+        font-size: 18px;
+    }
+    .filtarable-section {
+        padding: 50px 0;
+    }
+    .wrapper {
+        margin: 30px auto;
+    }
+    .wrapper nav .items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav .items span {
+        margin: 5px;
+    }
+
+    .gallery .image {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .wrapper nav {
+        padding-top: 0px;
+    }
+    .need-help {
+        margin-top: 20px;
+    }
+    .help-chat {
+        margin: 10px 0;
+    }
+    /* Filtarable Gallery */
+    /* Client Review Section Start*/
+    .client-review-title h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .rating-image img {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+    .client-comment p {
+        padding: 0 50px;
+    }
+    /* Client Review Section End*/
+    .press-section-title h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .press-title h4 {
+        font-size: 14px;
+    }
+    /* Newsletter Section Start */
+    .newsletter-field {
+        margin-top: 20px;
+    }
+    /* Newsletter Section End */
+    /* Footer Section Start */
+    .footer-item {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .payment-option {
+        display: block;
+    }
+    .payment-with {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .footer-link-title h1 {
+        font-size: 20px;
+    }
+    .footer-link ul li a {
+        font-size: 13px;
+    }
+    .footer-link ul li p {
+        font-size: 13px;
+    }
+    .footer-large{
+        display: none;
+    }
+    /* Footer Section End */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header-navbar-button,
+    .header-large {
+        display: none;
+    }
+    .top-header {
+        text-align: left;
+    }
+    .logo-image img {
+        width: 100%;
+        height: auto;
+    }
+    .header-link ul {
+        justify-content: end;
+        margin: 0;
+    }
+    .gallery .image {
+        width: calc(100% / 2);
+    }
+    .qualified-team {
+        height: 220px;
+    }
+    .team-title h1,
+    .need-help h1 {
+        font-size: 22px;
+    }
+    .team-details p {
+        font-size: 13px;
+        padding: 7px 0;
+    }
+    .team-btn {
+        padding: 5px 15px;
+    }
+    .need-help {
+        margin-top: 0px;
+    }
+    .rating-image img {
+        width: 70%;
+    }
+    .client-comment p {
+        padding: 0px;
+    }
+    /* .press-alignment {
+        justify-content: center;
+    } */
+    .newsletter-field {
+        margin-top: 0px;
+    }
+    .footer-item {
+        margin-top: 0px;
+        margin-left: 20px;
+    }
+    .footer-link-title h1 {
+        font-size: 22px;
+    }
+    .footer-link ul li a {
+        font-size: 14px;
+    }
+    .footer-link ul li p {
+        font-size: 14px;
+    }
+    .footer-large{
+        display: none;
+    }
+    /* Mobile Footer Start */
+    .footer-logo-mobile img {
+        width: 60%;
+    }
+    .footer-nav-collapselink a {
+        padding: 12px 5px;
+        font-size: 20px;
+    }
+    .footer-nav-collapsebody ul li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .payment-method-mobilelogo img{
+        width: 70px;
+    }
+    .payment-mobile {
+        margin-right: 10px;
+    }
+    .payment-mobile p{
+        font-size: 24px;
+    }
+    /* Mobile Footer End */
+    /* Breadcrumb Css Start */
+    .breadcrumb-list ul li span {
+        padding: 0px 8px;
+    }
+    /* Breadcrumb Css End */
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .footer-mobile{
+        display: none;
+    }
+    .footer-large{
+        display: block;
+    }
+    .logo-image img {
+        width: 85%;
+        height: auto;
+    }
+    .header-mobile {
+        display: none;
+    }
+    .header-large {
+        display: block;
+    }
+    .header-navbar-button {
+        display: block;
+    }
+    .top-header {
+        text-align: left;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .header-link ul {
+        justify-content: end;
+        margin: 0;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: space-between;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 2px;
+        padding-right: 3px;
+    }
+    .gallery .image {
+        width: calc(100% / 3);
+    }
+    .qualified-team {
+        height: 220px;
+        padding: 20px 15px;
+    }
+    .team-details p {
+        font-size: 14px;
+        padding: 12px 0;
+    }
+    .help-chat {
+        margin: 0px;
+    }
+    .help-contact span:nth-child(2),
+    .help-chat span:nth-child(2),
+    .help-email span:nth-child(2) {
+        font-size: 12px;
+    }
+    .press-alignment {
+        justify-content: center;
+    }
+    .payment-option {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .payment-with {
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .footer-link-title h1 {
+        font-size: 24px;
+    }
+    .footer-link ul li a {
+        font-size: 14px;
+    }
+    .footer-link ul li p {
+        font-size: 14px;
+    }
+    /* Breadcrumb CSS Start */
+    .breadcrumb-list ul li span {
+        padding: 0px 10px;
+    }
+    /* Breadcrumb CSS End */
+}
+@media only screen and (min-width: 1080px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+    .footer-link-title h1 {
+        font-size: 24px;
+    }
+    .footer-link ul li a {
+        font-size: 16px;
+    }
+    .footer-link ul li p {
+        font-size: 16px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .top-header {
+        text-align: left;
+    }
+    .gallery .image {
+        width: calc(100% / 3);
+    }
+    .help-chat {
+        margin: 0px;
+    }
+    .payment-option {
+        justify-content: space-evenly;
+    }
+    .payment p {
+        font-size: 22px;
+    }
+}

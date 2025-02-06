@@ -1,0 +1,273 @@
+/* Treatment Strength Question Button */
+.treatment-mdcnhold {
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 0px 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.treatment-title {
+    margin-bottom: 20px;
+}
+.treatment-title h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 0;
+    color: #006a9b;
+}
+.treatment-mdcnhold-content {
+    border: 1px solid #d4d4d4;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.treatment-content-all {
+    padding: 0px 18px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.treatment-heading {
+    background-color: #e7e7e7;
+    padding: 15px 30px;
+}
+.treatment-heading h3 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #006a9b;
+    margin-bottom: 7px;
+}
+.treatment-heading h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #006a9b;
+    margin: 0;
+}
+.treatment-tag {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tag-item {
+    background-color: rgba(0, 106, 155, 0.1);
+    margin-right: 5px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.tag-item svg {
+    margin-right: 5px;
+}
+.td-title {
+    margin-bottom: 5px;
+    color: #006a9b;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.treatment-details ul {
+    padding-left: 35px;
+    list-style-type: disc;
+}
+.treatment-questionbtn {
+    padding: 0;
+}
+.treatment-question p {
+    margin: 0;
+}
+.treatment-questionbtn:hover {
+    border: none;
+}
+.treatments-mdcn-image {
+    text-align: center;
+}
+.treatments-mdcn-image img {
+    width: 70%;
+    height: auto;
+}
+.treatmentMedicine-Tablebutton {
+    justify-content: center;
+}
+.btn-treatmentTable {
+    background-color: #fff;
+    border: 1px solid #bebebe;
+    border-radius: 0;
+    width: 100px;
+}
+.tablebutton-item2 {
+    border-left: none;
+    border-right: none;
+}
+.tablebutton-item1 {
+    border-radius: 5px 0px 0px 5px;
+}
+.tablebutton-item3 {
+    border-radius: 0px 5px 5px 0px;
+}
+.btn-treatmentTable:hover {
+    background-color: #006a9b;
+    border: 1px solid #bebebe;
+    color: #fff;
+}
+.tablebutton-item2:hover {
+    border-left: none;
+    border-right: none;
+}
+.btn-treatmentTable.active {
+    background-color: #006a9b;
+    color: #fff;
+    border: 1px solid #006a9b;
+}
+.mdcnqty {
+    padding: 2px 12px !important;
+    display: flex !important;
+    align-items: center;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #006a9b;
+    justify-content: space-between;
+    border-bottom: 0;
+    border-radius: 0;
+}
+.mdcnqty:hover {
+    background-color: #006a9b;
+    color: #fff;
+}
+.qty-per-price {
+    visibility: hidden;
+    text-align: center;
+}
+.mdcnqty:hover .qty-per-price {
+    visibility: visible;
+}
+.qty-pp {
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.qty-pp-open {
+    visibility: visible;
+}
+.qty-totalprice {
+    margin: 0;
+}
+.tab-mdcnlistfirst-btn {
+    border-radius: 5px 5px 0px 0px;
+}
+.tab-mdcnlistlast-btn {
+    border-bottom: 1px solid #000;
+    border-radius: 0px 0px 5px 5px;
+}
+.treatmentmdcn-selectheading {
+    margin-top: 10px;
+}
+.selectoption-alignment {
+    padding: 5px 10px;
+}
+.mdcn-formselect {
+    border-color: #b1b1b1;
+}
+.mdcn-formselect:focus {
+    border-color: #006a9b;
+    outline: 0;
+    box-shadow: none;
+}
+option {
+    color: #006a9b;
+    background-color: #fff;
+}
+option:checked {
+    color: #fff;
+    background-color: #013046;
+}
+.treatment-medicine-button {
+    text-align: center;
+    margin-top: 15px;
+}
+.treatmentmedicine-btn {
+    background-color: #006a9b;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.treatmentmedicine-btn:hover {
+    background-color: #003c58;
+    color: #fff;
+}
+.treatmentmedicine-btn span svg {
+    font-size: 16px;
+}
+/* Resonsive Media Query */
+/* @media only screen and (max-width: 575px) {} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .treatment-mdcnhold {
+        padding: 20px 10px;
+    }
+    .treatment-title h1 {
+        font-size: 24px;
+    }
+    .treatment-heading h3 {
+        font-size: 20px;
+    }
+    .treatment-heading h5 {
+        font-size: 14px;
+    }
+    .treatment-details ul {
+        padding-left: 20px;
+    }
+    .treatment-question p {
+        font-size: 14px;
+    }
+    .treatments-mdcn-image {
+        padding: 10px 0;
+    }
+    .btn-treatmentTable {
+        width: 70px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+    .treatment-title h1 {
+        font-size: 26px;
+    }
+    .treatment-mdcnhold {
+        padding: 0 0px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .treatment-details ul {
+        padding-left: 20px;
+    }
+    .treatment-details ul li {
+        font-size: 15px;
+    }
+    .treatments-mdcn-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .treatment-title h1 {
+        font-size: 30px;
+    }
+    .treatment-details ul li {
+        font-size: 16px;
+    }
+    .treatments-mdcn-image img {
+        width: 70%;
+        height: auto;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

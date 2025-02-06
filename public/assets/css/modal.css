@@ -1,0 +1,132 @@
+.image-magnify {
+    position: relative;
+}
+.mobile-magnify {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+.magnif {
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #cb4575;
+    position: relative;
+}
+.magnif svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+/* The Modal (background) */
+.modal-large {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 4; /* Sit on top */
+    padding-top: 0px; /* Location of the box */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: hidden; /* Enable scroll if needed */
+    background-color: rgb(255, 255, 255); /* Fallback color */
+    background-color: rgba(255, 255, 255, 1); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content-large {
+    margin: auto;
+    display: block;
+    width: auto;
+    height: 100%;
+    cursor: zoom-in;
+}
+.img-zoomInLarge {
+    /* width: 100%;
+  height: auto; */
+    transform-origin: top;
+    overflow-y: scroll;
+    cursor: grab;
+}
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0);
+    }
+    to {
+        -webkit-transform: scale(1);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 1400px) {
+    .mobile-magnify {
+        display: block;
+    }
+}
+/* For New */
+.modal-image-large {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+}
+.all-content-large {
+    background-color: #fff;
+    width: auto;
+    height: 100%;
+    overflow-y: scroll;
+}
+.modal-button {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.close_bg {
+    margin: 5px;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.close_bg span svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    cursor: pointer;
+}
+.zoom_bg {
+    width: 40px;
+    height: 40px;
+}
+.zoom_bg span svg {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+}

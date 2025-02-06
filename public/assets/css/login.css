@@ -1,0 +1,236 @@
+.login-section {
+    padding: 50px 0;
+}
+.login-content-title h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.checkbox-link-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-form {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.login-form-header {
+    background-color: #ff9900;
+    padding: 12px 0;
+}
+.login-form-header h1 {
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.login-form-content {
+    padding: 25px;
+}
+.loginpage-form-content {
+    padding-bottom: 0;
+}
+.login-form-rememberlabel {
+    font-size: 15px;
+}
+.form-button {
+    text-align: end;
+    margin-top: 20px;
+}
+.login-btn {
+    padding: 8px 25px;
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+.login-btn:hover {
+    background-color: #cf7d02;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+.googlelogin-btn {
+    display: block;
+    padding: 8px 25px;
+    background-color: #c63231;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+    margin-top: 10px;
+    margin-left: auto;
+}
+.googlelogin-btn span {
+    margin-right: 5px;
+}
+.googlelogin-btn:hover {
+    background-color: #a32828;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s all ease-in-out;
+}
+.register-link {
+    margin-top: 15px;
+}
+.login-form-check-input {
+    border: 1px solid #a0a0a0;
+}
+.login-form-control:focus {
+    box-shadow: none;
+}
+.login-form-check-input:focus {
+    border: 1px solid #ff9900;
+    box-shadow: none;
+    outline: 0;
+}
+.login-form-check-input:checked {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+.forgot-password-link a {
+    text-decoration: underline;
+    color: #666666;
+}
+.forgot-password-link a:hover {
+    color: #181818;
+}
+.register-link {
+    text-align: center;
+}
+.register-link p {
+    margin: 0;
+    font-size: 18px;
+}
+.register-link p a {
+    color: #181818;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.register-link p a:hover {
+    color: #ff9900;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.eye-icon {
+    cursor: pointer;
+}
+.login-form-left-bg {
+    background-color: #ff9900;
+    padding-right: 0px;
+    position: relative;
+}
+.login-form-left {
+    padding: 30px 20px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+.login-form-lefttitle h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+}
+.login-form-left-image {
+    margin-top: 5px;
+}
+.login-form-left-image img {
+    width: 70%;
+}
+.login-form-right {
+    padding: 30px 20px;
+}
+.login-form-righttitle h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff9900;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 600px) {
+    .login-section {
+        padding: 30px 0;
+    }
+    .login-form h1 {
+        font-size: 22px;
+    }
+    .checkbox-link-item {
+        display: block;
+    }
+    .form-check .login-form-check-input {
+        float: none;
+        margin-left: -1.5em;
+        margin-right: 5px;
+    }
+    .form-button {
+        text-align: center;
+    }
+    .login-btn {
+        padding: 8px 22px;
+        font-size: 16px;
+    }
+    .googlelogin-btn {
+        padding: 8px 22px;
+        font-size: 16px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .register-link p {
+        margin: 0;
+        font-size: 15px;
+    }
+    .login-form-content {
+        padding: 15px;
+    }
+    .loginpage-form-content {
+        padding: 15px 0px;
+    }
+    .login-form-left-bg {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .loginpage-form-content {
+        padding: 15px 0px;
+    }
+    .login-form-left-bg {
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .login-form-left-bg {
+        display: none;
+    }
+    .register-link p {
+        margin: 0;
+        font-size: 17px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .login-form-left-bg {
+        display: revert;
+    }
+    .loginpage-form-content {
+        padding-bottom: 0px;
+    }
+    .register-link p {
+        margin: 0;
+        font-size: 15px;
+    }
+    .login-form-righttitle h1 {
+        font-size: 24px;
+    }
+    .login-form-righttitle h1 {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .register-link p {
+        margin: 0;
+        font-size: 17px;
+    }
+}
