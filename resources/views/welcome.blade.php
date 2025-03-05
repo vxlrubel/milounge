@@ -101,7 +101,7 @@
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
             grid-template-rows: auto auto;
-            gap: 10px;
+            gap: .625rem;
         }
 
         .grid-image-items div:nth-child(1) {
@@ -122,6 +122,28 @@
             grid-row: 1 / span 2;
         }
 
+
+        .furniture-grid{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto auto;
+            gap: .625rem;
+        }
+
+        .furniture-grid div:nth-child(1){
+            grid-row: 1 / span 2;
+        }
+        .furniture-grid div:nth-child(2){
+            grid-row: 1;
+        }
+        .furniture-grid div:nth-child(3){
+            grid-row: 2;
+        }
+        .furniture-grid-big-items .owl-stage-outer,
+        .furniture-grid-big-items .owl-stage-outer .owl-stage,
+        .furniture-grid-big-items .owl-stage-outer .owl-stage .owl-item{
+            height: 100%;
+        }
 
     </style>
 
@@ -156,7 +178,6 @@
         </div>
     </section>
 
-
     <section class="clearfix py-4 py-lg-5" style="background-color: hsl(317, 100%, 96%);">
         <div class="container py-xl-4">
             <div class="mx-auto border-bottom text-center pb-3 mb-4" style="max-width: 540px;">
@@ -180,10 +201,88 @@
         </div>
     </section>
 
+    <section class="clearfix py-4 py-lg-5">
+        <div class="container py-xl-4">
+            <div class="row" style="--bs-gutter-x:0rem;">
+                <div class="col-lg-6">
+                    <img src="{{asset('/assets/mi-img/furniture-slider/image-650%C3%97430-5.jpg')}}" alt="" class="w-100">
+                </div>
+                <div class="col-lg-6"  style="background-color: hsl(317, 100%, 96%);">
+                    <div class="p-3 p-sm-4 p-lg-5">
+                        <h3>Title here</h3>
+                        <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores illum. Accusamus dolorum corrupti totam odit esse at libero eum, sint voluptatum! Possimus, doloribus. Dolorem, dolor? Sit quos ullam iste similique non quasi sequi deserunt rerum magnam! Eveniet dicta ipsam aliquid asperiores repellat nostrum, porro quod repudiandae, assumenda minima magni?</p>
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil est deserunt non, quasi maxime!</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nulla corrupti recusandae alias maiores aliquam eius minima eligendi dignissimos earum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="clearfix py-4 py-lg-5" style="background-color: hsla(36, 100%, 50%,0.1)">
         <div class="container">
             <div class="furniture-slider owl-carousel">
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-1.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-2.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-3.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-4.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-5.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-6.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-7.jpg')}}" alt="" class="img-fluid"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="clearfix py-4 py-lg-5" style="background-color: hsla(190, 90%, 50%,0.1);">
+        <div class="container py-xl-4">
+
+            <div class="mx-auto border-bottom text-center pb-3 mb-4" style="max-width: 540px;">
+                <h4 class="fs-4 text-uppercase">Section title</h4>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere error dignissimos tempora ut impedit?</div>
+            </div>
+
+            <div class="furniture-grid">
+                <div class="overflow-hidden">
+                    <div class="owl-carousel furniture-grid-big-items h-100">
+                        <div class="h-100">
+                            <img src="{{asset('/assets/mi-img/image-645×575-1.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="h-100">
+                            <img src="{{asset('/assets/mi-img/image-645×575-2.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="overflow-hidden">
+                    <div class="owl-carousel furniture-grid-small-items-1 h-100">
+                        <div class="h-100">
+                            <img src="{{asset('/assets/mi-img/furniture-sm-slider/image-682×300-1.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="h-100">
+                            <img src="{{asset('/assets/mi-img/furniture-sm-slider/image-682×300-2.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+                <div class="overflow-hidden">
+                    <div class="owl-carousel furniture-grid-small-items-2 h-100">
+                        <div class="h-100">
+                            <img src="{{asset('/assets/mi-img/furniture-sm-slider/image-682×300-3.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="h-100">
+                            <img src="{{asset('/assets/mi-img/furniture-sm-slider/image-682×300-4.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="clearfix py-4 py-lg-5" style="background-color: hsla(36, 100%, 50%,0.1)">
+        <div class="container py-xl-4">
+            <div class="furniture-slider-2 owl-carousel">
                 <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-1.jpg')}}" alt="" class="img-fluid"></div>
                 <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-2.jpg')}}" alt="" class="img-fluid"></div>
                 <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-3.jpg')}}" alt="" class="img-fluid"></div>
@@ -444,11 +543,58 @@
                 slider.owlCarousel( config );
             }
 
+            const furnitureSlider2 = ()=>{
+                const slider = $('.furniture-slider-2');
+                const responsiveConfig = {
+                    0:{
+                        items: 1,
+                    },
+                    992:{
+                        items: 2,
+                    }
+                }
+                const config = {
+                    margin            : 10,
+                    loop              : true,
+                    dots              : false,
+                    lazyLoad          : true,
+                    autoplay          : true,
+                    autoplayTimeout   : 3000,
+                    autoplayHoverPause: true,
+                    autoplaySpeed     : 500,
+                    slideBy           : 2,
+                    responsive        : responsiveConfig,
+                }
+
+                slider.owlCarousel( config );
+            }
+
+            const furnitureSliderBigItem = ( selectorClassName, autoplayTimeout = 3000 )=>{
+                const slider = $('.'+ selectorClassName);
+                const config = {
+                    items             : 1,
+                    loop              : true,
+                    dots              : false,
+                    lazyLoad          : true,
+                    autoplay          : true,
+                    autoplayTimeout   : autoplayTimeout,
+                    autoplayHoverPause: false,
+                    autoplaySpeed     : 1500,
+                }
+                slider.owlCarousel( config );
+            }
+
             // product slider
             productSlider();
 
             // furniture slider
             furnitureSlider();
+
+            furnitureSlider2();
+
+            furnitureSliderBigItem('furniture-grid-big-items');
+            furnitureSliderBigItem('furniture-grid-small-items-1');
+            furnitureSliderBigItem('furniture-grid-small-items-2');
 
         });
     </script>
