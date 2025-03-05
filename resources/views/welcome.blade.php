@@ -209,7 +209,7 @@
         <div class="container py-xl-4">
             <div class="row" style="--bs-gutter-x:0rem;">
                 <div class="col-lg-6">
-                    <img src="{{asset('/assets/mi-img/furniture-slider/image-650%C3%97430-5.jpg')}}" alt="" class="w-100">
+                    <img src="{{asset('/assets/mi-img/image-650×430.jpg')}}" alt="" class="w-100">
                 </div>
                 <div class="col-lg-6"  style="background-color: hsl(317, 100%, 96%);">
                     <div class="p-3 p-sm-4 p-lg-5">
