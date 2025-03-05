@@ -303,9 +303,8 @@
             </div>
 
             <div class="my-4 my-lg-5 d-flex justify-content-center gap-2">
-                <button class="btn btn-outline-info rounded-0 btn-sm py-2 px-3 text-uppercase">Menu</button>
-                <button class="btn btn-outline-info rounded-0 btn-sm py-2 px-3 text-uppercase">Book a table</button>
-                <button class="btn btn-outline-info rounded-0 btn-sm py-2 px-3 text-uppercase">Book an Event</button>
+                <a href="{{url('/menu')}}" class="btn btn-outline-info rounded-0 btn-sm py-2 px-3 text-uppercase" style="min-width: 130px;">Menu</a>
+                <a href="{{url('/table-booking')}}" class="btn btn-outline-info rounded-0 btn-sm py-2 px-3 text-uppercase" style="min-width: 130px;">Book a table</a>
             </div>
 
             <div class="row">
