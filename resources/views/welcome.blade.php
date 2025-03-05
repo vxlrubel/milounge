@@ -97,6 +97,32 @@
             background-color: hsl(345, 67%, 97%);
         }
 
+        .grid-image-items {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 10px;
+        }
+
+        .grid-image-items div:nth-child(1) {
+            grid-row: 1 / span 2;
+        }
+
+        .grid-image-items div:nth-child(2) {
+            grid-column: 2 / 3;
+            grid-row: 1;
+        }
+
+        .grid-image-items div:nth-child(3) {
+            grid-column: 2 / 3;
+            grid-row: 2;
+        }
+
+        .grid-image-items div:nth-child(4) {
+            grid-row: 1 / span 2;
+        }
+
+
     </style>
 
     <link rel="stylesheet" href="{{asset('/assets/css/mi-style.css')}}">
@@ -126,6 +152,45 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="clearfix py-4 py-lg-5" style="background-color: hsl(317, 100%, 96%);">
+        <div class="container py-xl-4">
+            <div class="mx-auto border-bottom text-center pb-3 mb-4" style="max-width: 540px;">
+                <h4 class="fs-4 text-uppercase">Section title</h4>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere error dignissimos tempora ut impedit?</div>
+            </div>
+            <div class="grid-image-items">
+                <div>
+                    <img src="{{asset('/assets/mi-img/image-320×570-1.jpg')}}" class="w-100 h-100 object-fit-cover">
+                </div>
+                <div>
+                    <img src="{{asset('/assets/mi-img/image-682×300-1.jpg')}}" class="w-100 h-100 object-fit-cover">
+                </div>
+                <div>
+                    <img src="{{asset('/assets/mi-img/image-682×300-2.jpg')}}" class="w-100 h-100 object-fit-cover">
+                </div>
+                <div>
+                    <img src="{{asset('/assets/mi-img/image-320×570-2.jpg')}}" class="w-100 h-100 object-fit-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="clearfix py-4 py-lg-5" style="background-color: hsla(36, 100%, 50%,0.1)">
+        <div class="container">
+            <div class="furniture-slider owl-carousel">
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-1.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-2.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-3.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-4.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-5.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-6.jpg')}}" alt="" class="img-fluid"></div>
+                <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-7.jpg')}}" alt="" class="img-fluid"></div>
             </div>
         </div>
     </section>
@@ -227,6 +292,8 @@
         </div>
     </div>
 
+
+
     <section class="clearfix py-4 py-lg-5 product-slider-area" style="background-color: hsl(190.04deg 89% 95%)">
         <div class="container">
             <div class="owl-carousel product-slide">
@@ -300,18 +367,23 @@
     <script>
         $(document).ready(function(){
 
+            /**@productSlider this function slide the product items
+             *
+             * @return {void}
+             *
+             */
             const productSlider = ()=>{
                 const productCarousel = $('.product-slide');
                 productCarousel.owlCarousel({
-                    margin: 10,
-                    loop: true,
-                    dots: false,
-                    lazyLoad: true,
-                    autoplay: true,
-                    autoplayTimeout: 3000,
+                    margin            : 10,
+                    loop              : true,
+                    dots              : false,
+                    lazyLoad          : true,
+                    autoplay          : true,
+                    autoplayTimeout   : 3000,
                     autoplayHoverPause: true,
-                    autoplaySpeed: 500,
-                    responsive : {
+                    autoplaySpeed     : 500,
+                    responsive        : {
                         0:{
                             items: 2,
                         },
@@ -336,7 +408,47 @@
                 });
             }
 
+            /**@furnitureSlider this function slide the furniture items
+             *
+             * @return {void}
+             *
+             */
+            const furnitureSlider = ()=>{
+                const slider = $('.furniture-slider');
+                const responsiveConfig = {
+                    0:{
+                        items: 1,
+                    },
+                    576:{
+                        items: 2,
+                    },
+                    768:{
+                        items: 3,
+                    },
+                    992:{
+                        items: 4,
+                    }
+                }
+                const config = {
+                    margin            : 10,
+                    loop              : true,
+                    dots              : false,
+                    lazyLoad          : true,
+                    autoplay          : true,
+                    autoplayTimeout   : 3000,
+                    autoplayHoverPause: true,
+                    autoplaySpeed     : 500,
+                    responsive        : responsiveConfig,
+                }
+
+                slider.owlCarousel( config );
+            }
+
+            // product slider
             productSlider();
+
+            // furniture slider
+            furnitureSlider();
 
         });
     </script>
