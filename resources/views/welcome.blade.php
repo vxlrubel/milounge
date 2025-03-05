@@ -145,6 +145,10 @@
             height: 100%;
         }
 
+        .opening-list-hover-item > .row:hover > .col-6 > .p-2 {
+            background-color: white;
+            color: var(--bs-dark);
+        }
     </style>
 
     <link rel="stylesheet" href="{{asset('/assets/css/mi-style.css')}}">
@@ -295,7 +299,7 @@
     </section>
 
 
-    <div class="clearfix py-4 py-lg-5">
+    <div class="clearfix py-4 py-lg-5 user-select-none">
         <div class="container">
             <div class="text-center">
                 <h2 class="fs-2">Wembley</h2>
@@ -309,7 +313,7 @@
 
             <div class="row">
                 <div class="col-md-6 col-lg-5 py-5 bg-info">
-                    <div style="max-width: 350px" class="mx-auto">
+                    <div style="max-width: 350px" class="mx-auto opening-list-hover-item">
                         <h3 class="fs-4 text-center mb-4">Opening Times</h3>
                         <div class="row" style="--bs-gutter-x: .3rem;">
                             <div class="col-6">
