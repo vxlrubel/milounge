@@ -169,12 +169,13 @@
                     <div class="col-md-10 col-xl-6">
                         <div class="mi-anim-1">Welcome to</div>
                         <div class="mi-anim-2">Mi-lounge.</div>
+                        <h3 class="my-4 mi-anim-3">A Celebration of Indian Culinary Excellence</h3>
                         <div class="mt-3 mb-4 mt-md-4 mb-md-5">
-                            <div class="mi-anim-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio excepturi necessitatibus quaerat ipsum voluptates iure! Sunt iure quibusdam itaque consectetur aliquid expedita officiis a quasi!</div>
+                            <div class="mi-anim-4">At Mi-Lounge, we take immense pride in offering a sophisticated Indian dining experience that blends innovation with class. Our passion for exceptional cuisine and impeccable service is at the heart of everything we do. With a commitment to the highest standards of quality, we invite you to embark on a gastronomic journey that showcases the richness and diversity of Indian flavors.</div>
                         </div>
                         <div class="d-flex align-items-center gap-3">
-                            <button class="btn btn-lg btn-light rounded-1 px-3 mi-anim-4">BARNEA BISTRO</button>
-                            <button class="btn btn-lg btn-outline-light rounded-1 px-3 mi-anim-5">BONITO 47</button>
+                            <button class="btn btn-lg btn-light rounded-1 px-3 mi-anim-5">BARNEA BISTRO</button>
+                            <button class="btn btn-lg btn-outline-light rounded-1 px-3 mi-anim-6">BONITO 47</button>
                         </div>
                     </div>
                 </div>

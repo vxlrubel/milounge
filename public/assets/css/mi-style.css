@@ -2,7 +2,10 @@
     --animatio_time: 0.3s;
     --padding-block:70px;
     --font-size: 3rem;
-    background: url('../mi-img/hero-bg.jpg');
+    background-image: url('../mi-img/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 }
 
 .mi-hero-overlay{
@@ -51,6 +54,9 @@
 }
 .mi-anim-5{
     animation: fadeinup var(--animatio_time) forwards calc(var(--animatio_time) * 4);
+}
+.mi-anim-6{
+    animation: fadeinup var(--animatio_time) forwards calc(var(--animatio_time) * 5);
 }
 @keyframes fadeinup{
     to{
