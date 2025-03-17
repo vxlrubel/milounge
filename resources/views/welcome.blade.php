@@ -185,10 +185,13 @@
 
     <section class="clearfix py-4 py-lg-5" style="background-color: hsl(317, 100%, 96%);">
         <div class="container py-xl-4">
-            <div class="mx-auto border-bottom text-center pb-3 mb-4" style="max-width: 540px;">
-                <h4 class="fs-4 text-uppercase">Section title</h4>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere error dignissimos tempora ut impedit?</div>
+            <div class="mb-4 mx-auto text-center border-bottom border-2 border-secondary" style="max-width: 720px;">
+                <h4 class="fs-4 text-uppercase">A Luxurious Ambience to Enchant You</h4>
+                <div class="pb-3 pt-1">
+                    Step into an upscale and elegant haven, designed to immerse you in a vibrant yet unpretentious atmosphere. Our restaurant boasts an impressive and lavish setting, ensuring a comfortable and unforgettable dining experience. From the carefully curated decor to the warm ambiance, every detail has been meticulously crafted to make your visit truly special.
+                </div>
             </div>
+
             <div class="grid-image-items">
                 <div>
                     <img src="{{asset('/assets/mi-img/image-320×570-1.jpg')}}" class="w-100 h-100 object-fit-cover">
@@ -214,11 +217,35 @@
                 </div>
                 <div class="col-lg-6"  style="background-color: hsl(317, 100%, 96%);">
                     <div class="p-3 p-sm-4 p-lg-5">
-                        <h3>Title here</h3>
-                        <p class="mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, maiores illum. Accusamus dolorum corrupti totam odit esse at libero eum, sint voluptatum! Possimus, doloribus. Dolorem, dolor? Sit quos ullam iste similique non quasi sequi deserunt rerum magnam! Eveniet dicta ipsam aliquid asperiores repellat nostrum, porro quod repudiandae, assumenda minima magni?</p>
-                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil est deserunt non, quasi maxime!</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus nulla corrupti recusandae alias maiores aliquam eius minima eligendi dignissimos earum.</p>
+                        <h3>A Feast of Authentic and Innovative Indian Flavors</h3>
+                        <p class="mb-3 text-justify">
+                            Our menu is a testament to India's vast and diverse culinary heritage. We have meticulously selected special dishes from every region, allowing you to savor the authentic tastes of India while experiencing a touch of contemporary innovation. Our master chef, with years of expertise, presents both traditional favorites and modern interpretations, ensuring a dynamic and ever-evolving menu.
+                        </p>
+                        <p class="text-justify">
+                            Indulge in aromatic curries, sizzling tandoori delights, and mouthwatering biryanis, all prepared with the finest ingredients and utmost care. Whether you are a connoisseur of Indian cuisine or a first-time explorer, every dish is crafted to tantalize your taste buds and leave a lasting impression.
+                        </p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="clearfix py-4 py-lg-5">
+        <div class="container">
+            <div class="mb-4 mx-auto text-center border-bottom border-2 border-secondary" style="max-width: 720px;">
+                <h4 class="fs-4 text-uppercase">Private Dining & Special Events</h4>
+                <div class="pb-3 pt-1">Looking for a venue to host an intimate gathering or a grand celebration? Our private dining spaces offer an exclusive setting for all occasions. Be it a birthday, anniversary, corporate event, or any special moment, we tailor our services to create an unforgettable experience for you and your guests.</div>
+            </div>
+
+            <div class="grid-container">
+                <div class="box box1">
+                    <img src="{{asset('/assets/mi-img/img_960x540_1.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+                <div class="box box2">
+                    <img src="{{asset('/assets/mi-img/img_960x540_2.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+                <div class="box box4">
+                    <img src="{{asset('/assets/mi-img/img_1262x362_1.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
             </div>
         </div>
@@ -241,10 +268,11 @@
 
     <section class="clearfix py-4 py-lg-5" style="background-color: hsla(190, 90%, 50%,0.1);">
         <div class="container py-xl-4">
-
-            <div class="mx-auto border-bottom text-center pb-3 mb-4" style="max-width: 540px;">
-                <h4 class="fs-4 text-uppercase">Section title</h4>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi facere error dignissimos tempora ut impedit?</div>
+            <div class="mb-4 mx-auto text-center border-bottom border-2 border-secondary" style="max-width: 720px;">
+                <h4 class="fs-4 text-uppercase">Exquisite Drinks & Handcrafted Cocktails</h4>
+                <div class="pb-3 pt-1">
+                    Complement your meal with our premium selection of wines, spirits, and handcrafted cocktails, expertly curated to enhance the flavors of your dining experience. Our bar offers an extensive range of beverages, ensuring the perfect pairing for every dish. From classic favorites to innovative mixes, our bartenders craft each drink with precision and flair.
+                </div>
             </div>
 
             <div class="furniture-grid">
@@ -287,6 +315,12 @@
 
     <section class="clearfix py-4 py-lg-5" style="background-color: hsla(36, 100%, 50%,0.1)">
         <div class="container py-xl-4">
+            <div class="mb-4 mx-auto text-center border-bottom border-2 border-secondary" style="max-width: 720px;">
+                <h4 class="fs-4 text-uppercase">Unparalleled Service & Warm Hospitality</h4>
+                <div class="pb-3 pt-1">
+                    At Mi-Lounge, your comfort and satisfaction are our top priorities. Our dedicated team is committed to providing you with a seamless and memorable dining experience, ensuring that every visit exceeds expectations. Whether you're celebrating a special occasion, enjoying a family gathering, or simply indulging in a night out, we strive to make every moment extraordinary.
+                </div>
+            </div>
             <div class="furniture-slider-2 owl-carousel">
                 <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-1.jpg')}}" alt="" class="img-fluid"></div>
                 <div><img src="{{asset('/assets/mi-img/furniture-slider/image-650×430-2.jpg')}}" alt="" class="img-fluid"></div>
@@ -313,7 +347,7 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 col-lg-5 py-5 bg-info">
+                <div class="col-md-6 col-lg-5 py-5" style="background-color: hsla(36, 100%, 50%,0.1)">
                     <div style="max-width: 350px" class="mx-auto opening-list-hover-item">
                         <h3 class="fs-4 text-center mb-4">Opening Times</h3>
                         <div class="row" style="--bs-gutter-x: .3rem;">

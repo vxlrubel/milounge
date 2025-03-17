@@ -39,6 +39,9 @@
         .mobileheader-logo img{
             max-width: 200px !important;
         }
+        .text-justify{
+            text-align: justify;
+        }
     </style>
     @stack('style')
 
