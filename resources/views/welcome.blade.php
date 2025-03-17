@@ -245,7 +245,7 @@
                     <img src="{{asset('/assets/mi-img/img_960x540_2.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
                 <div class="box box4">
-                    <img src="{{asset('/assets/mi-img/img_1262x362_1.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
+                    <img src="{{asset('/assets/mi-img/img_1262x540_1.jpg')}}" alt="" class="w-100 h-100 object-fit-cover">
                 </div>
             </div>
         </div>
