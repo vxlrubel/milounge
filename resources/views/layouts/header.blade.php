@@ -47,7 +47,8 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                         <a class="navbar-brand header-logo" href="/home">
-                            <img src="/assets/images/logo.png" alt="{{ config('app.name') }}">
+                            {{-- <img src="/assets/images/logo.png" alt="{{ config('app.name') }}"> --}}
+                            <img src="{{asset('assets/mi-img/logo.png')}}" alt="{{ config('app.name') }}" class="logo-border-theme">
                             <!-- <img src="/assets/images/howmetown-dark.png" alt=""> -->
                         </a>
                         <div class="collapse navbar-collapse">
@@ -115,7 +116,8 @@
                 <div class="row align-items-center">
                     <div class="col-7">
                         <div class="mobileheader-logo">
-                            <a href="/home"><img src="/assets/images/logo.png" alt="{{ config('app.name') }}"></a>
+                            {{-- <a href="/home"><img src="/assets/images/logo.png" alt="{{ config('app.name') }}"></a> --}}
+                            <a href="/home"><img src="{{asset('assets/mi-img/logo.png')}}" alt="{{ config('app.name') }}" class="logo-border-theme"></a>
                         </div>
                     </div>
                     <div class="col-5">
