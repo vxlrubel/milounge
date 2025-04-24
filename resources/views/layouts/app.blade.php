@@ -32,7 +32,7 @@
     </style>
     <link rel="stylesheet" href="/assets/css/slick.css">
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
-    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png"/>
+    <link rel="icon" type="image/x-icon" href="{{asset('assets/mi-img/favicon-milounge.png')}}"/>
     <link rel="stylesheet" href="/assets/css/foodstyle.css"/>
     {{-- <link rel="stylesheet" href="/assets/css/responsive.css"/> --}}
     <link rel="stylesheet" href="/assets/css/foodresponsive.css"/>
@@ -47,7 +47,7 @@
             text-align: justify;
         }
         img.logo-border-theme {
-            border: 2px solid #e5c104;
+            border: 2px solid var( --mi-color-primary, #e5c104 );
             border-radius: 50%;
         }
     </style>
