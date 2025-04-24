@@ -43,7 +43,7 @@
     text-transform: uppercase;
     line-height: var(--font-size);
     font-size: var(--font-size);
-    color: var(--bs-info);
+    color: var( --mi-color-primary, #e5c104 );
     animation: fadeinup var(--animatio_time) forwards calc(var(--animatio_time) * 1);
 }
 .mi-anim-3{
