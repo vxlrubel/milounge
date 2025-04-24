@@ -4,7 +4,10 @@
         <div class="row">
             <div class="col-md-5">
                 <div class="footer-logo">
-                    <img src="/assets/images/logo.png" alt="{{ config('app.name') }}">
+                    {{-- <img src="/assets/images/logo.png" alt="{{ config('app.name') }}"> --}}
+                    <a href="/home">
+                        <img src="{{asset('assets/mi-img/logo.png')}}" class="logo-border-theme" alt="{{ config('app.name') }}">
+                    </a>
                 </div>
                 <div class="footer-details">
                     <div class="footer-opening-time">
