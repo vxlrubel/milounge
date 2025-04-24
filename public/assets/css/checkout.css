@@ -70,7 +70,7 @@
     transition: 0.3s all ease-in-out;
 }
 .checkout-btn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
     padding: 12px 16px;
     transition: 0.3s all ease-in-out;
@@ -123,7 +123,7 @@
 }
 .ordersummary-headtitle div a:hover {
     color: #fff;
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     padding: 8px 14px;
     border-radius: 5px;
     transition: 0.3s all ease-in-out;
@@ -255,7 +255,7 @@
     padding: 6px 12px;
 }
 .couponbtn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 

@@ -125,7 +125,7 @@
     transition: 0.3s all ease-in-out;
 }
 .contactform-btn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
     transition: 0.3s all ease-in-out;
 }

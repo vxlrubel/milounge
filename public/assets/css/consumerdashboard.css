@@ -128,7 +128,7 @@
     margin-top: 10px;
 }
 .ac-btn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
     transition: 0.3s all ease-in-out;
 }
@@ -181,7 +181,7 @@
     border-radius: 5px;
 }
 .largetable-actionbutton:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     position: relative;
 }
 .largetable-actionbutton svg {
@@ -263,7 +263,7 @@
 }
 .searchdate-formfield:focus {
     border: 0;
-    border-bottom: 2px solid #cf7d02;
+    border-bottom: 2px solid var( --mi-color-primary-hover, #bfa003);
 }
 .searchdate-field2 {
     margin-left: 20px;
@@ -279,7 +279,7 @@
     padding: 6px 16px;
 }
 .datebysearchbtn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .orderdetailsbtn {
@@ -289,7 +289,7 @@
     border-radius: 5px;
 }
 .orderdetailsbtn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .table-orderid {
@@ -380,7 +380,7 @@
 .mobiledatesearch-forminput:focus {
     border: none;
     border-radius: 0;
-    border-bottom: 2px solid #cf7d02;
+    border-bottom: 2px solid var( --mi-color-primary-hover, #bfa003);
 }
 .mobiledatesearch-to,
 .mobiledatesearch-button {
@@ -488,7 +488,7 @@
     transition: 0.3s all ease-in-out;
 }
 .pass-editbtn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
     transition: 0.3s all ease-in-out;
 }
@@ -684,7 +684,7 @@
 }
 .modalorderdetails-button:hover {
     color: #fff;
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     padding: 10px 16px;
     transition: 0.3s all ease-in-out;
 }
@@ -712,7 +712,7 @@
     margin: auto;
 }
 .fuelcard-history-icon:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
 }
 .fuelcard-history-icon img {
     position: absolute;
@@ -746,11 +746,11 @@
     font-size: 14px;
 }
 .fuelcard-btn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .fuelcard-btn.show {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .fuelcard-btn::after {

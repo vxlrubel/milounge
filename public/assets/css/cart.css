@@ -60,7 +60,7 @@
     padding: 6px 12px;
 }
 .quantitybtn:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .quantityinput {
@@ -200,7 +200,7 @@
 }
 .mobilequantitybtn:hover {
     padding: 1px 7px;
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .mobilequantitybtn svg {

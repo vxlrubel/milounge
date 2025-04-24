@@ -34,7 +34,7 @@ ul {
     color: #fff;
 }
 .mainbtn-primary:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .logout-btn {
@@ -224,7 +224,7 @@ ul {
 }
 .account-btn.show,
 .account-btn:first-child:active {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
     color: #fff;
 }
 .accountbtn-dropdown-menu {
@@ -584,7 +584,7 @@ ul {
     height: 40px;
 }
 .search-button:hover {
-    background-color: #cf7d02;
+    background-color: var( --mi-color-primary-hover, #bfa003);
 }
 .search-button-hold {
     position: static;

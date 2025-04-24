@@ -23,6 +23,7 @@
     <style>
         :root{
             --mi-color-primary: #e5c104;
+            --mi-color-primary-hover: #bfa003;
         }
         [v-cloak] {
             display: none;
