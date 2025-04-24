@@ -21,7 +21,7 @@
     scrollbar-width: none; /* Firefox */
 }
 .fooditem-categoryname-title {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 12px;
@@ -33,7 +33,7 @@
 }
 .imagemenu-list-header {
     padding: 12px 15px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     border-radius: 10px 10px 0px 0px;
     border: 5px solid #fff;
     border-bottom: 0;
@@ -69,7 +69,7 @@
     cursor: pointer;
 }
 .add-icon-hold {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     width: 30px;
     height: 30px;
     border-radius: 100%;

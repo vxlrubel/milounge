@@ -70,7 +70,7 @@
     margin-top: 20px;
 }
 .profile-title {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 12px 20px;
     border-radius: 5px 5px 0px 0px;
 }
@@ -101,7 +101,7 @@
     align-items: center;
 }
 .accountdetails-genderselect:focus {
-    border: 1px solid #ff9900;
+    border: 1px solid var( --mi-color-primary, #e5c104);
     outline: 0;
     box-shadow: none;
 }
@@ -117,7 +117,7 @@
     width: 120px;
 }
 .ac-btn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 8px 20px;
     font-weight: 600;
@@ -138,13 +138,13 @@
     margin-bottom: 5px;
 }
 .ad-selectOption:focus {
-    border: 1px solid #ff9900;
+    border: 1px solid var( --mi-color-primary, #e5c104);
     outline: 0;
     box-shadow: none;
 }
 .deliveryaddress-showtable {
     border: 1px solid #dbdbdb;
-    border-top: 4px solid #ff9900;
+    border-top: 4px solid var( --mi-color-primary, #e5c104);
     border-radius: 5px;
 }
 .ad-table {
@@ -176,7 +176,7 @@
 .largetable-actionbutton {
     width: 35px;
     height: 35px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     position: relative;
     border-radius: 5px;
 }
@@ -193,7 +193,7 @@
     color: #fff;
 }
 .mobile-actionbutton {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     font-size: 15px;
 }
 /* Account Details CSS End */
@@ -204,7 +204,7 @@
     border-radius: 5px;
 }
 .profile-myordertitle {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     border-radius: 5px 5px 0px 0px;
 }
 .profile-myordertitle h1 {
@@ -259,7 +259,7 @@
 .searchdate-formfield {
     border: none;
     border-radius: 0px;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid var( --mi-color-primary, #e5c104);
 }
 .searchdate-formfield:focus {
     border: 0;
@@ -274,7 +274,7 @@
 }
 .datebysearchbtn {
     margin-left: 10px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 6px 16px;
 }
@@ -283,7 +283,7 @@
     color: #fff;
 }
 .orderdetailsbtn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 6px 16px;
     border-radius: 5px;
@@ -307,7 +307,7 @@
     border: 1px solid #c5c5c5;
     margin-top: 10px;
     border-radius: 5px;
-    border-top: 4px solid #ff9900;
+    border-top: 4px solid var( --mi-color-primary, #e5c104);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .mo-content {
@@ -341,7 +341,7 @@
 }
 .mobileodl-details-button a {
     display: block;
-    background: #ff9900;
+    background: var( --mi-color-primary, #e5c104);
     width: 30px;
     height: 30px;
     border-radius: 3px;
@@ -371,7 +371,7 @@
     padding: 5px 10px;
     border: none;
     border-radius: 0;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid var( --mi-color-primary, #e5c104);
 }
 .mobiledatesearch-forminput::placeholder {
     font-size: 13px;
@@ -390,12 +390,12 @@
     text-align: center;
 }
 .mobiledatebysearchbtn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 5px 10px;
 }
 .consumerorder-header {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 8px 12px;
     margin-top: 10px;
@@ -422,7 +422,7 @@
 .leftstright-line {
     height: 45px;
     width: 3px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
 }
 .mobileorder-status p {
     font-size: 15px;
@@ -481,7 +481,7 @@
     margin-bottom: 0;
 }
 .pass-editbtn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     font-weight: 600;
     padding: 8px 18px;
@@ -581,7 +581,7 @@
 }
 .da-mobile-content {
     border: 1px solid #cfcfcf;
-    border-top: 4px solid #ff9900;
+    border-top: 4px solid var( --mi-color-primary, #e5c104);
     border-radius: 5px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -620,13 +620,13 @@
 .modalorder-date,
 .modalorder-status {
     width: 30%;
-    border-left: 3px solid #ff9900;
+    border-left: 3px solid var( --mi-color-primary, #e5c104);
     padding-left: 10px;
 }
 .modalorder-date h5,
 .modalorder-status h5 {
     font-size: 16px;
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     text-transform: capitalize;
     margin-bottom: 2px;
     font-weight: 700;
@@ -643,7 +643,7 @@
     vertical-align: middle;
 }
 .modalordered-detailstable thead {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
 }
 .modalordered-detailstable thead tr th {
@@ -675,7 +675,7 @@
 .modalorderdetails-button {
     padding: 10px 16px;
     transition: 0.3s all ease-in-out;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
 }
 .modalorderdetails-button2 {
     padding: 10px 16px;
@@ -705,7 +705,7 @@
 .fuelcard-history-icon {
     width: 35px;
     height: 35px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     border-radius: 5px;
     display: block;
     position: relative;
@@ -728,7 +728,7 @@
     text-transform: capitalize;
 }
 .fuelcard-table thead tr {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
 }
 .fuelcard-table tbody tr {
@@ -740,7 +740,7 @@
     border: none;
 }
 .fuelcard-btn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 8px 15px;
     font-size: 14px;
@@ -763,7 +763,7 @@
     color: #fff;
 }
 .fueldropdown-item:hover {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
 }
 /* Fuel card page CSS End */

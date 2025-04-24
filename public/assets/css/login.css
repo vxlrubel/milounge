@@ -18,7 +18,7 @@
     overflow: hidden;
 }
 .login-form-header {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 12px 0;
 }
 .login-form-header h1 {
@@ -41,7 +41,7 @@
 }
 .login-btn {
     padding: 8px 25px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -83,13 +83,13 @@
     box-shadow: none;
 }
 .login-form-check-input:focus {
-    border: 1px solid #ff9900;
+    border: 1px solid var( --mi-color-primary, #e5c104);
     box-shadow: none;
     outline: 0;
 }
 .login-form-check-input:checked {
-    background-color: #ff9900;
-    border-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
+    border-color: var( --mi-color-primary, #e5c104);
 }
 .forgot-password-link a {
     text-decoration: underline;
@@ -111,7 +111,7 @@
     text-decoration: underline;
 }
 .register-link p a:hover {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     text-decoration: underline;
     font-weight: 600;
 }
@@ -119,7 +119,7 @@
     cursor: pointer;
 }
 .login-form-left-bg {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding-right: 0px;
     position: relative;
 }
@@ -148,7 +148,7 @@
 .login-form-righttitle h1 {
     font-size: 24px;
     font-weight: 600;
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     text-transform: capitalize;
 }
 @media only screen and (max-width: 600px) {

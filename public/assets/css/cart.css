@@ -13,7 +13,7 @@
     vertical-align: middle;
 }
 .cart-tabledata thead tr {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
 }
 .carthead-description {
@@ -55,7 +55,7 @@
     justify-content: center;
 }
 .quantitybtn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 6px 12px;
 }
@@ -72,7 +72,7 @@
     font-weight: 600;
 }
 .cart-product-remove a {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     font-size: 18px;
 }
 /* Cart Amount Box */
@@ -81,7 +81,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    border: 2px solid #ff9900;
+    border: 2px solid var( --mi-color-primary, #e5c104);
     color: #181818;
     padding: 30px;
     border-radius: 5px;
@@ -173,7 +173,7 @@
     display: block;
     width: 32px;
     height: 32px;
-    background: #ff9900;
+    background: var( --mi-color-primary, #e5c104);
     border-radius: 100%;
     position: relative;
     cursor: pointer;
@@ -195,7 +195,7 @@
 }
 .mobilequantitybtn {
     padding: 1px 7px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
 }
 .mobilequantitybtn:hover {

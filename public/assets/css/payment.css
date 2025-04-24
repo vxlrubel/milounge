@@ -17,7 +17,7 @@
     justify-content: space-between;
     padding: 15px 15px;
     background-color: #fff;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid var( --mi-color-primary, #e5c104);
     border-radius: 5px 5px 0px 0px;
 }
 .payment-amount h3 {
@@ -27,7 +27,7 @@
     margin: 0;
 }
 .payment-amount p {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     font-size: 18px;
     font-weight: 700;
@@ -81,7 +81,7 @@
     margin-top: 20px;
 }
 .payment-btn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     font-size: 18px;
     font-weight: 600;

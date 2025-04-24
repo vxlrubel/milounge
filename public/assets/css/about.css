@@ -8,7 +8,7 @@
     text-align: center;
 }
 .about-us-content h1 {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     font-size: 30px;
     margin-bottom: 10px;
     padding-bottom: 10px;
@@ -23,7 +23,7 @@
     transform: translateX(-50%);
     height: 3px;
     width: 60px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
 }
 .about-all-details p {
     color: #181818;

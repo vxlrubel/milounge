@@ -37,7 +37,7 @@
     left: 20px;
 }
 .fi-icon-circle {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     width: 55px;
     height: 55px;
     border-radius: 100%;
@@ -53,7 +53,7 @@
 .four-item h6 {
     font-size: 22px;
     font-weight: 700;
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
 }
 .four-item p {
     margin-top: 5px;
@@ -87,7 +87,7 @@
 }
 .menu-title {
     padding: 12px 15px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     border-radius: 10px 10px 0px 0px;
     border: 5px solid #fff;
     border-bottom: 0;
@@ -126,12 +126,12 @@
     z-index: 1;
     color: #fff;
     text-decoration: none;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
 }
 .menu-list-item.active {
     z-index: 2;
     color: #fff;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     border-color: none;
     border: none;
 }
@@ -194,7 +194,7 @@
 } */
 .food-item-accordion-button:not(.collapsed) {
     color: #fff;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     box-shadow: none;
     /* padding-bottom: 7px; */
 }
@@ -203,20 +203,20 @@
 }
 .food-item-accordion-button:focus {
     z-index: 3;
-    border-color: #ff9900;
+    border-color: var( --mi-color-primary, #e5c104);
     outline: 0;
     box-shadow: none;
 }
 .food-item-accordion-button {
-    border: 1px solid #ff9900;
-    background-color: #ff9900;
+    border: 1px solid var( --mi-color-primary, #e5c104);
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     font-weight: 500;
     font-size: 17px;
     /* padding-bottom: 7px; */
 }
 .category-accordion-header {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
 }
 .category-accordion-header span {
     font-size: 14px;
@@ -260,7 +260,7 @@
     width: 10%;
 }
 .four-dc-icon span svg {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
 }
 .four-dc-item p {
     font-size: 15px;
@@ -274,7 +274,7 @@
     border-radius: 5px;
 }
 .product-offer-header{
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -304,7 +304,7 @@
 }
 .po-box-header h5 {
     font-size: 17px;
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
 }
 .po-box-header h5 span {
     margin-right: 10px;
@@ -327,7 +327,7 @@
     z-index: 1;
 }
 .product-busket-heading {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -415,7 +415,7 @@
     font-weight: 600;
 }
 .p-action {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 2px 6px;
     border-radius: 5px;
 }
@@ -451,7 +451,7 @@
 }
 .mobile-menu-list-item {
     width: 100%;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 12px 15px;
     border-bottom: 2px solid #fff;
     z-index: 100;
@@ -482,7 +482,7 @@
     border-top: 1px solid #c5c5c5;
 }
 .main-menu-all-item .accordion-button {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
 }
 .sub-item-selectcheck:checked[type="radio"] {
@@ -510,7 +510,7 @@
     visibility: hidden;
 }
 .sub-item-formcheck .sub-item-selectcheck:checked + label {
-    border: 2px solid #ff9900;
+    border: 2px solid var( --mi-color-primary, #e5c104);
 }
 .sub-item-formcheck label {
     background: #ffffff;
@@ -528,7 +528,7 @@
     margin-bottom: 15px;
 }
 .sub-item-selectcheck:focus {
-    border-color: #ff9900;
+    border-color: var( --mi-color-primary, #e5c104);
     outline: 0;
     box-shadow: none;
 }
@@ -544,7 +544,7 @@
     width: 22px;
     height: 22px;
     border-radius: 3px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
 }
 .subcomponent-add-icon span {
     display: inline-block;
@@ -643,11 +643,11 @@
     border: 1px solid #c5c5c5;
 }
 .form-extraitem-check:checked {
-    background-color: #ff9900;
-    border-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
+    border-color: var( --mi-color-primary, #e5c104);
 }
 .form-extraitem-check:focus {
-    border-color: #ff9900;
+    border-color: var( --mi-color-primary, #e5c104);
     outline: 0;
     box-shadow: none;
 }
@@ -682,7 +682,7 @@
 }
 .main-menu-all-item .accordion-button:focus {
     z-index: 3;
-    border-color: #ff9900;
+    border-color: var( --mi-color-primary, #e5c104);
     outline: 0;
     box-shadow: none;
 }
@@ -691,7 +691,7 @@
 }
 .modal-text-form-control:focus {
     box-shadow: none;
-    border: 1px solid #ff9900;
+    border: 1px solid var( --mi-color-primary, #e5c104);
 }
 .mobile-fooditem-row {
     margin-bottom: 7px;
@@ -757,7 +757,7 @@
     box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 35px;
 }
 .food-subcomponent-content {
-    border: 5px solid #ff9900;
+    border: 5px solid var( --mi-color-primary, #e5c104);
     margin: 0px 10px;
     margin-left: 20px;
 }
@@ -788,8 +788,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-left: 15px solid #ff9900;
-    border-right: 15px solid #ff9900;
+    border-left: 15px solid var( --mi-color-primary, #e5c104);
+    border-right: 15px solid var( --mi-color-primary, #e5c104);
 }
 .header-branchname h5 {
     color: #fff;
@@ -800,7 +800,7 @@
     color: #fff;
     width: 30px;
     height: 30px;
-    background: #ff9900;
+    background: var( --mi-color-primary, #e5c104);
     border-radius: 100%;
     position: relative;
 }
@@ -843,14 +843,14 @@
     font-weight: 600;
 }
 .location-formlabel span {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     margin-right: 7px;
 }
 .location-form-select {
     border: 1px solid #c5c5c5;
 }
 .location-form-select:focus {
-    border: 1px solid #ff9900;
+    border: 1px solid var( --mi-color-primary, #e5c104);
     box-shadow: none;
 }
 .location-modal-footer {
@@ -870,7 +870,7 @@
 .busket-product-commentbox label span {
     font-size: 16px;
     margin-right: 5px;
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
 }
 .product-busket-heightcontrol {
     max-height: 50vh;
@@ -896,7 +896,7 @@
 }
 .floating-offer-btn h5 {
     font-size: 15px;
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
 }
 .floating-offer-btn h5 span svg {
     margin-right: 5px;
@@ -1028,8 +1028,8 @@
         padding: 12px 20px;
     }
     .header-branchname {
-        border-left: 10px solid #ff9900;
-        border-right: 10px solid #ff9900;
+        border-left: 10px solid var( --mi-color-primary, #e5c104);
+        border-right: 10px solid var( --mi-color-primary, #e5c104);
     }
     /* Floating Button */
     .floating-OrderPage-button {

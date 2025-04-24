@@ -8,7 +8,7 @@
     border-radius: 5px;
 }
 .checkouttitle {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 10px 15px;
     border-radius: 5px 5px 0px 0px;
 }
@@ -23,7 +23,7 @@
 }
 .shipping-title {
     padding: 20px 30px;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid var( --mi-color-primary, #e5c104);
 }
 .shipping-title h3 {
     font-size: 22px;
@@ -64,7 +64,7 @@
     text-align: end;
 }
 .checkout-btn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 12px 16px;
     transition: 0.3s all ease-in-out;
@@ -82,7 +82,7 @@
     margin-left: 5px;
 }
 .checkout-selectOption:focus {
-    border-color: #ff9900;
+    border-color: var( --mi-color-primary, #e5c104);
     outline: 0;
     box-shadow: none;
 }
@@ -99,14 +99,14 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .checkoutorder-summary-details {
-    border-top: 3px solid #ff9900;
+    border-top: 3px solid var( --mi-color-primary, #e5c104);
 }
 .ordersummary-headtitle {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    border-bottom: 2px solid #ff9900;
+    border-bottom: 2px solid var( --mi-color-primary, #e5c104);
 }
 .ordersummary-headtitle h6 {
     font-size: 20px;
@@ -116,7 +116,7 @@
 }
 .ordersummary-headtitle div a {
     color: #fff;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 8px 14px;
     border-radius: 5px;
     transition: 0.3s all ease-in-out;
@@ -132,7 +132,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ff9900;
+    border-bottom: 1px solid var( --mi-color-primary, #e5c104);
     padding: 10px;
 }
 .chkoutordersummary-content:last-child {
@@ -148,7 +148,7 @@
     color: #181818;
 }
 .chkoutordersummary-totalcontent {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     border-radius: 0px 0px 5px 5px;
 }
 .ordersummary-total h6 {
@@ -168,7 +168,7 @@
     /* padding: 10px 15px; */
     border-radius: 5px;
     background-color: #fff;
-    /* border-top: 5px solid #ff9900; */
+    /* border-top: 5px solid var( --mi-color-primary, #e5c104); */
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .orderitemsummary-imagedetails {
@@ -204,7 +204,7 @@
     max-width: 25ch;
 }
 .headercartitem-dlt-btn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     padding: 4px 8px;
     border-radius: 5px;
 }
@@ -230,7 +230,7 @@
     color: #181818;
 }
 .guest-loginlink:hover {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
 }
 
 /* Cart Promo Code */
@@ -250,7 +250,7 @@
     z-index: 0 !important;
 }
 .couponbtn {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 6px 12px;
 }
@@ -274,7 +274,7 @@
 .cb-p-action {
     width: 30px;
     height: 30px;
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     border-radius: 4px;
     position: relative;
     cursor: pointer;
@@ -343,7 +343,7 @@
     background-color: #fff;
 }
 .postcode-list {
-    background-color: #ff9900;
+    background-color: var( --mi-color-primary, #e5c104);
     color: #fff;
     padding: 0;
 }
@@ -428,7 +428,7 @@
 .busket-product-commentbox label span {
     font-size: 16px;
     margin-right: 5px;
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
 }
 .location-modal-body {
     background-image: url(../images/bg-white.png);
@@ -462,14 +462,14 @@
     font-weight: 600;
 }
 .location-formlabel span {
-    color: #ff9900;
+    color: var( --mi-color-primary, #e5c104);
     margin-right: 7px;
 }
 .location-form-select {
     border: 1px solid #c5c5c5;
 }
 .location-form-select:focus {
-    border: 1px solid #ff9900;
+    border: 1px solid var( --mi-color-primary, #e5c104);
     box-shadow: none;
 }
 .location-modal-footer {
