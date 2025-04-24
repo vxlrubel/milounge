@@ -33,7 +33,7 @@
 }
 
 .contactus-contactinfo {
-    background: rgba(255, 153, 0, 1);
+    background: var(--mi-color-primary, #e5c104);
     padding: 20px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
