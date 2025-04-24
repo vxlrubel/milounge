@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="/assets/css/owl.carousel.css"/>
 
     <style>
+        :root{
+            --mi-color-primary: #e5c104;
+        }
         [v-cloak] {
             display: none;
         }
@@ -37,10 +40,14 @@
 
     <style>
         .mobileheader-logo img{
-            max-width: 200px !important;
+            max-width: 60px !important;
         }
         .text-justify{
             text-align: justify;
+        }
+        img.logo-border-theme {
+            border: 2px solid #e5c104;
+            border-radius: 50%;
         }
     </style>
     @stack('style')
